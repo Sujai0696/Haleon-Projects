@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.voltarengel.test.VoltarengelStressTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelIsArthritisHereditaryTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelJointPainMedicineTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelExercisesForArthritisTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelHowToRelieveWristPainTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelHandTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelLivingWithArthritisTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelHomeTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelFootTest"/>
+      <class name="com.qa.voltarengel.test.VoltarenSocialSettingsTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelFamilyTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelHowToRelieveJointPainTest"/>
+      <class name="com.qa.voltarengel.test.VoltarenWorkTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelKneeTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelWristTest"/>
+      <class name="com.qa.voltarengel.test.VoltarenAloneTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelUseYourHeadToNavigateWebsitesTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelHowToPreventArthritisTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelFirstArthritisFriendlySiteTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelMorningRoutineArthritisReliefTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelAnkleTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelElbowTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

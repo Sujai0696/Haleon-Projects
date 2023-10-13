@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tums_Test_Sujai]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.tums.eng.util.Transformer"/>
+    <listener class-name="com.qa.tums.eng.util.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Tums Automation Test(failed)">
+    <classes>
+      <class name="com.qa.tums.eng.test.TumsAntacidProductsRegularTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="verifyBuyNow"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="LaunchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.tums.eng.test.TumsAntacidProductsRegularTest -->
+      <class name="com.qa.tums.eng.test.TumsAntacidProductsChewyDelightsTest">
+        <methods>
+          <include name="verifyYoutube"/>
+          <include name="endReport"/>
+          <include name="verifyBuyNow"/>
+          <include name="LaunchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+        </methods>
+      </class> <!-- com.qa.tums.eng.test.TumsAntacidProductsChewyDelightsTest -->
+      <class name="com.qa.tums.eng.test.TumsAntacidProductsUltra1000Test">
+        <methods>
+          <include name="endReport"/>
+          <include name="verifyWriteAReview"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="LaunchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.tums.eng.test.TumsAntacidProductsUltra1000Test -->
+      <class name="com.qa.tums.eng.test.TumsAntacidProductsSugarFreeTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="LaunchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyBuyNow"/>
+        </methods>
+      </class> <!-- com.qa.tums.eng.test.TumsAntacidProductsSugarFreeTest -->
+      <class name="com.qa.tums.eng.test.TumsAntacidProductsSmoothiesTest">
+        <methods>
+          <include name="launchingTheBrowser"/>
+          <include name="LaunchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="verifyBuyNow"/>
+        </methods>
+      </class> <!-- com.qa.tums.eng.test.TumsAntacidProductsSmoothiesTest -->
+    </classes>
+  </test> <!-- Tums Automation Test(failed) -->
+</suite> <!-- Failed suite [Tums_Test_Sujai] -->

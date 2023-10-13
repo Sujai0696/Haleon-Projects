@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sensodyne_Test_Sujai]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.tums.eng.util.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Sensodyne Automation Test(failed)">
+    <classes>
+      <class name="com.qa.biotene.test.BioteneMouthwashTest">
+        <methods>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="verifyExploreResourcesLink"/>
+          <include name="verifyBannerWriteAReview"/>
+          <include name="verifyDryMouthLink"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneMouthwashTest -->
+    </classes>
+  </test> <!-- Sensodyne Automation Test(failed) -->
+</suite> <!-- Failed suite [Sensodyne_Test_Sujai] -->

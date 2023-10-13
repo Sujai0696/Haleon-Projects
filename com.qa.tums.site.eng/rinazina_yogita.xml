@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.rinazina.it.test.RinazinaAllergicasprayNasaleTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaCondizioniTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaDoppiaAzioneSprayTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaSitemapTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaRiniteAllergicaTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaSinusiteTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaContattiTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaRussamentoNotturnoTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaSprayNasaleTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinagocceNasaliTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaRaffreddoreTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

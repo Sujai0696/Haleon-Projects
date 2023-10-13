@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Biotene_Test]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.tums.eng.util.Transformer"/>
+    <listener class-name="com.qa.tums.eng.util.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Biotene Automation Test(failed)">
+    <classes>
+      <class name="com.qa.biotene.test.BioteneSjogrensSyndromeTest">
+        <methods>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="verifyTAKETHEQUIZ"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneSjogrensSyndromeTest -->
+      <class name="com.qa.biotene.test.BioteneSaveNowTest">
+        <methods>
+          <include name="verifySaveNow"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifyTakeTheQuiz"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneSaveNowTest -->
+      <class name="com.qa.biotene.test.biotenemoisturizinggelTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="verifyBiotenebuynowLink"/>
+          <include name="startReport"/>
+          <include name="verifyLearnMoreSevenLink"/>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.biotenemoisturizinggelTest -->
+      <class name="com.qa.biotene.test.BioteneRecognizingDryMouthTest">
+        <methods>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="verifyHyperLinkOne"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneRecognizingDryMouthTest -->
+      <class name="com.qa.biotene.test.biotenelivingdrymouthTest">
+        <methods>
+          <include name="verifyManagingDrymouth_learnmoreLink"/>
+          <include name="endReport"/>
+          <include name="verifyAsthmaAllergiesdrymouth_learnmoreLink"/>
+          <include name="verifyCancerTreatmentdrymouth_learnmoreLink"/>
+          <include name="verifyDiabetescausesdrymouth_learnmoreLink"/>
+          <include name="verifyBiotenecookiePopupLink"/>
+          <include name="verifyCaringforSomeone_learnmoreLink"/>
+          <include name="verifydrymouthTips_learnmoreLink"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyDrymouthThroatRelated_learnmoreLink"/>
+          <include name="verifyHowtouseMouthwash_learnmoreLink"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="verifyHomeBreadcrumbsLink"/>
+          <include name="verifyLivingwithdrymouthBreadcrumbsLink"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.biotenelivingdrymouthTest -->
+      <class name="com.qa.biotene.test.biotenefoodtohelpdrymouthTest">
+        <methods>
+          <include name="verifyBestpicnicfood"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.biotenefoodtohelpdrymouthTest -->
+      <class name="com.qa.biotene.test.biotenefeelingdrymouthnightTest">
+        <methods>
+          <include name="verifyBiotenecookiePopupLink"/>
+          <include name="verifyDentistDiagnosisLink"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyLivingdrymouthLinkbreadcrumbs"/>
+          <include name="verifyMedicationsLink"/>
+          <include name="verifyRelieveovernightbreadcrumbsLink"/>
+          <include name="verifyReadMoreLink"/>
+          <include name="verifyReadMore1Link"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="verifyHomeBreadcrumbsLink"/>
+          <include name="verifyTakeQuizLink"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.biotenefeelingdrymouthnightTest -->
+      <class name="com.qa.biotene.test.biotenedrymouthHealthImpactTest">
+        <methods>
+          <include name="verifyDrymouthDiagnosis_learnmoreLink"/>
+          <include name="endReport"/>
+          <include name="verifyFoodhelpdrymouth_learnmoreLink"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="verifyNaturalRemediesdrymouth_learnmoreLink"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifywhatisSalvia_learnmoreLink"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.biotenedrymouthHealthImpactTest -->
+      <class name="com.qa.biotene.test.BioteneDryMouthSymptomsTest">
+        <methods>
+          <include name="verifyBreadcrumbOne"/>
+          <include name="verifyHyperLinkOne"/>
+          <include name="endReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifyReadMore"/>
+          <include name="verifyPreviousAndNextArrow"/>
+          <include name="verifyShopNow"/>
+          <include name="launchingTheBrowser"/>
+          <include name="cookieButton"/>
+          <include name="startReport"/>
+          <include name="verifyBreadcrumbTwo"/>
+          <include name="verifyTakeTheQuiz"/>
+          <include name="verifyBreadcrumbThree"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneDryMouthSymptomsTest -->
+      <class name="com.qa.biotene.test.BioteneCancerTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="cookieButton"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyLearnMore4"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="verifyLearnMore1"/>
+          <include name="verifyLearnMore3"/>
+          <include name="verifyLearnMore2"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneCancerTest -->
+      <class name="com.qa.biotene.test.biotenedrymouthFAQTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="verifyDryMouth"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.biotenedrymouthFAQTest -->
+      <class name="com.qa.biotene.test.BioteneMouthwashTest">
+        <methods>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="verifyBannerWriteAReview"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneMouthwashTest -->
+      <class name="com.qa.biotene.test.biotenedrymouththroatTest">
+        <methods>
+          <include name="verifyHomeBreadcrumbsLink"/>
+          <include name="verifydrymouthLink"/>
+          <include name="verifydrymouthOralbalanceLink"/>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="verifyLivingdrymouthLinkbreadcrumbs"/>
+          <include name="verifyMoisturizingsprayLink"/>
+          <include name="verifynaturalremediesLink"/>
+          <include name="verifydrymouthOralRinseLink"/>
+          <include name="verifybioteneproductsLink"/>
+          <include name="startReport"/>
+          <include name="verifydrymouthLozengesLink"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyBiotenecookiePopupLink"/>
+          <include name="verifySalviaLink"/>
+          <include name="verifydrymouththroatbreadcrumbsLink"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.biotenedrymouththroatTest -->
+      <class name="com.qa.biotene.test.BioteneDiabetesTest">
+        <methods>
+          <include name="cookieButton"/>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="verifyLearnMore1"/>
+          <include name="verifyLearnMore2"/>
+          <include name="startReport"/>
+          <include name="verifyLearnMore3"/>
+          <include name="verifyLearnMore4"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneDiabetesTest -->
+      <class name="com.qa.biotene.test.BioteneLozengesText">
+        <methods>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyPreviousAndNextArrow"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneLozengesText -->
+      <class name="com.qa.biotene.test.bioteneHowtousemouthwashTest">
+        <methods>
+          <include name="verifyMouthwashesotherproducts"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyBiotenecookiePopupLink"/>
+          <include name="verifyDrymouthOralRinse"/>
+          <include name="verifyLivingwithdrymouth"/>
+          <include name="verifyLivingwithdrymouthbreadcrumbs"/>
+          <include name="endReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="verifyHomeBreadcrumbsLink"/>
+          <include name="verifyHowtousemouthwashbreadcrumbs"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.bioteneHowtousemouthwashTest -->
+      <class name="com.qa.biotene.test.BiotenedryMouthTipsBeachDayTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="verifyTAKETHEQUIZ"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BiotenedryMouthTipsBeachDayTest -->
+      <class name="com.qa.biotene.test.BioteneMultiMedicationsTest">
+        <methods>
+          <include name="verifyLearnMore1"/>
+          <include name="verifyLearnMore2"/>
+          <include name="verifyLearnMore3"/>
+          <include name="verifyLearnMore4"/>
+          <include name="endReport"/>
+          <include name="cookieButton"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneMultiMedicationsTest -->
+      <class name="com.qa.biotene.test.bioteneFreshenbadbreatheTest">
+        <methods>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="verifyRelievedrymouthsymptomsLink"/>
+          <include name="verifySjogrenSyndromeLink"/>
+          <include name="startReport"/>
+          <include name="verifyMedicationsLink"/>
+          <include name="verifyOralRinseLink"/>
+          <include name="verifydrymouthLink"/>
+          <include name="launchingTheBrowser"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.bioteneFreshenbadbreatheTest -->
+      <class name="com.qa.biotene.test.bioteneSitemapTest">
+        <methods>
+          <include name="verifySitemapLink"/>
+          <include name="endReport"/>
+          <include name="verifyThankyouBioteneLink"/>
+          <include name="verifyWriteReview5Link"/>
+          <include name="verifyWriteReview2Link"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifymouthrinsemouthwashLink"/>
+          <include name="startReport"/>
+          <include name="verifyWriteReview3Link"/>
+          <include name="verifyWriteReview4Link"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifyWriteReview1Link"/>
+          <include name="verifyWriteReview6Link"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.bioteneSitemapTest -->
+      <class name="com.qa.biotene.test.BioteneDryMouthProductsTest">
+        <methods>
+          <include name="verifyBreadcrumbTwo"/>
+          <include name="endReport"/>
+          <include name="verifyLearnMoreFour"/>
+          <include name="verifyLearnMoreThree"/>
+          <include name="launchingTheBrowser"/>
+          <include name="cookieButton"/>
+          <include name="verifyLearnMoreFive"/>
+          <include name="verifyLearnMoreSix"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifyLearnMoreOne"/>
+          <include name="startReport"/>
+          <include name="verifyLearnMoreSeven"/>
+          <include name="verifyLearnMoreTwo"/>
+          <include name="verifyBreadcrumbOne"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneDryMouthProductsTest -->
+      <class name="com.qa.biotene.test.biotenegentleoralrinseTest">
+        <methods>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="verifyReview2Link"/>
+          <include name="verifyReview1Link"/>
+          <include name="verifyLearnMoreSevenLink"/>
+          <include name="launchingTheBrowser"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.biotenegentleoralrinseTest -->
+      <class name="com.qa.biotene.test.BioteneSclerodermaTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="verifySHOPNOW"/>
+          <include name="verifyTAKETHEQUIZ"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneSclerodermaTest -->
+      <class name="com.qa.biotene.test.MedicationsThatCauseXerostomiaTest">
+        <methods>
+          <include name="verifyREADMORE"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="cookieButton"/>
+          <include name="verifyBioteneDryMouthOralRinse"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="verifySHOPNOW"/>
+          <include name="verifyTAKETHEQUIZ"/>
+          <include name="verifyLivingWithDryMouth"/>
+          <include name="verifyHowtoManageDryMouth"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.MedicationsThatCauseXerostomiaTest -->
+      <class name="com.qa.biotene.test.BioteneDryMouthSalivaTest">
+        <methods>
+          <include name="verifyShopNow"/>
+          <include name="verifyHyperLinkTwo"/>
+          <include name="endReport"/>
+          <include name="verifyHyperLinkThree"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifyBreadcrumbOne"/>
+          <include name="verifyHyperLinkOne"/>
+          <include name="verifyBreadcrumbThree"/>
+          <include name="verifyTakeTheQuiz"/>
+          <include name="verifyBreadcrumbTwo"/>
+          <include name="startReport"/>
+          <include name="cookieButton"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyReadMore"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneDryMouthSalivaTest -->
+      <class name="com.qa.biotene.test.BioteneParkinsonsDiseaseTest">
+        <methods>
+          <include name="verifySHOPNOW"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyBioteneDryMouthOralRinse"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifyTAKETHEQUIZ"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.BioteneParkinsonsDiseaseTest -->
+      <class name="com.qa.biotene.test.biotenedrymouthtipsTest">
+        <methods>
+          <include name="verifyBetterthisyearLink"/>
+          <include name="endReport"/>
+          <include name="verifyCaffenineworseLink"/>
+          <include name="verifyPlanTravelComfortableLink"/>
+          <include name="verifyMakechickenbrothLink"/>
+          <include name="verifyPicnicFoodLink"/>
+          <include name="verifyBeachbetterthisSummerLink"/>
+          <include name="verifydrymouthRoadLink"/>
+          <include name="verifyTeasRelaxtionLink"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifyDaydoingbetterLink"/>
+          <include name="verifyPumpkinReciepeLink"/>
+          <include name="verifyBenefitsWalkingLink"/>
+          <include name="verifyDrymouthreallylikeLink"/>
+          <include name="verifyHomeBreadcrumbsLink"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyTipsBiotenebreadcrumbsLink"/>
+          <include name="verifydehydrationSymptomsLink"/>
+          <include name="verifyBecomeAdvocateLink"/>
+          <include name="verifyBenefitsHydratedLink"/>
+          <include name="verifyBiotenecookiePopupLink"/>
+          <include name="verifyHealthyPackingListLink"/>
+          <include name="verifyHealthyTipsAgingLink"/>
+          <include name="verifyAlcholdrymouthLink"/>
+          <include name="verifyCocunutwaterLink"/>
+          <include name="verifyInfusedwaterReciepeLink"/>
+          <include name="verifyHydratingsummerfruitsLink"/>
+          <include name="verifyHealthPriorityLink"/>
+          <include name="verifySoupReciepeLink"/>
+          <include name="verifyLivingdrymouthLinkbreadcrumbs"/>
+          <include name="verifySymptomsmissingLink"/>
+          <include name="verifyVacationsummerLink"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.biotenedrymouthtipsTest -->
+      <class name="com.qa.biotene.test.biotenemoisturisingmouthsprayTest">
+        <methods>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifyLearnMoreSevenLink"/>
+          <include name="verifyReviewLink"/>
+        </methods>
+      </class> <!-- com.qa.biotene.test.biotenemoisturisingmouthsprayTest -->
+    </classes>
+  </test> <!-- Biotene Automation Test(failed) -->
+</suite> <!-- Failed suite [Biotene_Test] -->

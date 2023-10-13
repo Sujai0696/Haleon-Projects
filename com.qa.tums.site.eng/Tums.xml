@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Tums_Test_Sujai">
+<listeners>
+		<listener class-name="com.qa.tums.eng.util.Transformer" />
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+  <test  name="Tums Automation Test">
+    <classes>
+      <class name="com.qa.tums.eng.test.TumsAntacidProductsExtra750Test"/>
+      <class name="com.qa.tums.eng.test.TumsSevenSurprisingHeartburnFactsTest"/>
+      <class name="com.qa.tums.eng.test.TumsWhatIsGerdSymptomsTreatmentDietMedicationTest"/>
+      <class name="com.qa.tums.eng.test.TumsFoodThatCauseHeartburnTest"/>
+      <class name="com.qa.tums.eng.test.TumsHomePageTest"/>
+      <class name="com.qa.tums.eng.test.TumsAntacidProductsSugarFreeTest"/>
+      <class name="com.qa.tums.eng.test.TumsHowToKnowIfYouHaveAcidRefluxTest"/>
+      <class name="com.qa.tums.eng.test.TumsAntacidProductsSmoothiesTest"/>
+      <class name="com.qa.tums.eng.test.TumsAntacidProductsRegularTest"/>
+      <class name="com.qa.tums.eng.test.TumsSignsOfSevereHeartburnTest"/>
+      <class name="com.qa.tums.eng.test.TumsAboutTest"/>
+      <class name="com.qa.tums.eng.test.TumsAntacidProductsChewyDelightsTest"/>
+      <class name="com.qa.tums.eng.test.TumsWhatDoesHeartBurnFeelLikeTest"/>
+      <class name="com.qa.tums.eng.test.TumsfaqsTest"/>
+      <class name="com.qa.tums.eng.test.TumsHeartburnAtNightTest"/>
+      <class name="com.qa.tums.eng.test.TumsSymptomsTest"/>
+      <class name="com.qa.tums.eng.test.TumsAntacidProductsUltra1000Test"/>
+      <class name="com.qa.tums.eng.test.TumsCouponTest"/>
+      <class name="com.qa.tums.eng.test.TumsHeartBurnTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

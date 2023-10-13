@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.rinazina.it.test.RinazinaTuttoSulPoolineTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaSenzaMedicinaliTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaCauseEAspettiScientificiTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaHomepageTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaIpertonicoConEucaliptoTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaCongestioneNasalePresistenteTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaCheCoseLaSinusiteTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaMedicinaliTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaBaseDelRaffreddoreTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaComeRespiriamoTest"/>
+      <class name="com.qa.rinazina.it.test.RinazinaProdottiTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

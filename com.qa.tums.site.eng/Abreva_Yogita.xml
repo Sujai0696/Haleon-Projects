@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Abreva_Automation_Test">
+	<listeners>
+		<listener class-name="com.qa.tums.eng.util.Transformer" />
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+	<test name="Abreva Automation Test">
+		<classes>
+      <class name="com.qa.abreva.test.AbrevaHeaderTest"/>
+      <class name="com.qa.abreva.test.AbrevahowabrevaworksTest"/>
+      <class name="com.qa.abreva.test.AbrevaFooterTest"/>
+      <class name="com.qa.abreva.test.AbrevacoldsorefirststartTest"/>
+      <class name="com.qa.abreva.test.AbrevacoldsoretinglepollTest"/>
+      <class name="com.qa.abreva.test.AbrevacoldsorepimpleTest"/>
+      <class name="com.qa.abreva.test.AbrevahealthyliptipsTest"/>
+      <class name="com.qa.abreva.test.AbrevadatingwithcoldsoresTest"/>
+      <class name="com.qa.abreva.test.AbrevanottouchfaceTest"/>
+      <class name="com.qa.abreva.test.AbrevawheregetcoldsoreTest"/>
+      <class name="com.qa.abreva.test.AbrevatypescoldsoremedicineTest"/>
+      <class name="com.qa.abreva.test.AbrevacoldsoretreatmentTest"/>
+      <class name="com.qa.abreva.test.AbrevaSitemapTest"/>
+      <class name="com.qa.abreva.test.AbrevahowtocoverupcoldsoreTest"/>
+      <class name="com.qa.abreva.test.AbrevadealingcoldsoreTest"/>
+      <class name="com.qa.abreva.test.AbrevahowtostayconfidentcoldsoresTest"/>
+      <class name="com.qa.abreva.test.AbrevacoldsorefirstsignTest"/>
+      <class name="com.qa.abreva.test.AbrevatruthcoldsoreremediesTest"/>
+      <class name="com.qa.abreva.test.AbrevastayconfidentTest"/>
+      <class name="com.qa.abreva.test.AbrevahowtouseAbrevacreamTest"/>
+      <class name="com.qa.abreva.test.AbrevacoldsoretriggerTest"/>
+      <class name="com.qa.abreva.test.AbrevaCouponsTest"/>
+      <class name="com.qa.abreva.test.AbrevavsCompetitorsTest"/>
+      <class name="com.qa.abreva.test.AbrevaCreamTest"/>
+      <class name="com.qa.abreva.test.AbrevamanaginglipcareTest"/>
+      <class name="com.qa.abreva.test.AbrevaspreadingcoldsoresTest"/>
+      <class name="com.qa.abreva.test.AbrevaspreadingcoresoresTest"/>
+      <class name="com.qa.abreva.test.Abreva5stepspainfulcoldsoreTest"/>
+      <class name="com.qa.abreva.test.AbrevabumpsonlipsTest"/>
+      <class name="com.qa.abreva.test.AbrevakidscoldsoresTest"/>
+      <class name="com.qa.abreva.test.AbrevalipcareroutineTest"/>
+      <class name="com.qa.abreva.test.AbrevaContactusTest"/>
+      <class name="com.qa.abreva.test.AbrevalongcoldsorecontagiousTest"/>
+      <class name="com.qa.abreva.test.AbrevacoldsorestagesTest"/>
+      <class name="com.qa.abreva.test.AbrevaeatingforliphealthTest"/>
+      <class name="com.qa.abreva.test.AbrevaWheretobuyTest"/>
+      <class name="com.qa.abreva.test.AbrevaReviewsTest"/>
+      <class name="com.qa.abreva.test.AbrevaHomepageTest"/>
+      <class name="com.qa.abreva.test.AbrevatakecaredrylipswinterTest"/>
+      <class name="com.qa.abreva.test.AbrevatriggerscoldsoreTest"/>
+      <class name="com.qa.abreva.test.AbrevacoldsorefactsmythsTest"/>
+      <class name="com.qa.abreva.test.AbrevalysinecoldsoresTest"/>
+      <class name="com.qa.abreva.test.Abreva5waysridcoldsoreTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

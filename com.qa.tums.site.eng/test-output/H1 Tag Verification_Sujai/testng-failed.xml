@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [H1 Tag Verification_Sujai]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.tums.eng.util.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="H1 Tag Verification for Centrum HK(failed)">
+    <classes>
+      <class name="com.qa.bens.checklist.test.H1TagVerificationTest">
+        <methods>
+          <include name="findingTheH1Tag" invocation-numbers="44 45 46 55 70 72"/>
+          <include name="endReport"/>
+          <include name="launchTheBrowser"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.bens.checklist.test.H1TagVerificationTest -->
+    </classes>
+  </test> <!-- H1 Tag Verification for Centrum HK(failed) -->
+</suite> <!-- Failed suite [H1 Tag Verification_Sujai] -->

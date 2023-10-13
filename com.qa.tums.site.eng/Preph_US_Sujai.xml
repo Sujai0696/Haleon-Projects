@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.preph.test.PrephCausesOfHemorrhoidsTest"/>
+      <class name="com.qa.preph.test.PrephFrequentlyAskedQuestionsTest"/>
+      <class name="com.qa.preph.test.PrephHemorrhoidPainTest"/>
+      <class name="com.qa.preph.test.PrephEverythingYouNeedKnowAboutHemorrhoidsTest"/>
+      <class name="com.qa.preph.test.PrephHemorrhoidFlareUpsTest"/>
+      <class name="com.qa.preph.test.PrephHemorrhoidSymptomsTest"/>
+      <class name="com.qa.preph.test.PrephLearnMoreTest"/>
+      <class name="com.qa.preph.test.PrephHemorrhoidDiscussionGuideTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

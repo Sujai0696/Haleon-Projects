@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sensodyne_Test_Neha">
+<listeners>
+		<listener class-name="com.qa.tums.eng.util.Transformer" />
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+  <test  name="Sensodyne Automation Test_Neha">
+    <classes>
+      <class name="com.qa.sensodyne.us.test.SensodyneOralHealthTipsTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneStopLivingWithToothSenstivityTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneUnderstandingSensitivityTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneContactUsTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneUnsubscribeTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSearchResultTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneAccessibilityTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneShouldYouChangeToothpasteBrandsTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneFreshImpactToothpasteTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneMouthwashForSensitiveTeethTest"/>
+      <class name="com.qa.sensodyne.us.test.SensoDyneToothSensitivityAfterCavityFillingTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneDoYouNeedToFlossTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneAcceptableUsePolicyTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneIsHavingSensitiveTeethBadTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneTartarControlToothpasteTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

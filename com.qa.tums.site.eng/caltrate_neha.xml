@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Caltrate_Test_Neha">
+<listeners>
+		<listener class-name="com.qa.tums.eng.util.Transformer" />
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+  <test name="Caltrate Automation Test">
+    <classes>
+      <class name="com.qa.caltrate.eng.test.Caltrate600D3PlusMineralsTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateSurgeonGeneralsReportTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateVitaminDDeficiencyTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateOsteoporosisHelpReduceTheRiskTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateGummyBitesTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateVitaminDandYYourHealthTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateSalmonCakesTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateWorkYourUpperBodyYardWorkTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateKaleChipsTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateNextDayTurkeySoupTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateArugulaSaladTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

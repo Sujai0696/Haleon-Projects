@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OG Tag Verification_Sujai]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.tums.eng.util.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="OG Tag Verification for Centrum HK(failed)">
+    <classes>
+      <class name="com.qa.bens.checklist.test.CheckListOGTagverificationTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="findingOGTag" invocation-numbers="44 72"/>
+          <include name="launchTheBrowser"/>
+        </methods>
+      </class> <!-- com.qa.bens.checklist.test.CheckListOGTagverificationTest -->
+    </classes>
+  </test> <!-- OG Tag Verification for Centrum HK(failed) -->
+</suite> <!-- Failed suite [OG Tag Verification_Sujai] -->

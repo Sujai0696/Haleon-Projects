@@ -1,0 +1,771 @@
+<html>
+<head>
+<title>TestNG:  Br Tag Verification for Caltrate.com</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Br Tag Verification for Caltrate.com</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/12/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 01 13:28:40 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>36 seconds (36020 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/frequently-asked-questions/</td>
+<td><div><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/frequently-asked-questions/ expected [true] but found [false]
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace72615125", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace72615125'><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/frequently-asked-questions/ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/calcium-supplement-products/600d3-plus-minerals/</td>
+<td><div><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/calcium-supplement-products/600d3-plus-minerals/ expected [true] but found [false]
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace339186291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace339186291'><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/calcium-supplement-products/600d3-plus-minerals/ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/quality/</td>
+<td><div><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/quality/ expected [true] but found [false]
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1559434619", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1559434619'><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/quality/ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/calcium-supplement-products/600d3-soft-chews/</td>
+<td><div><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/calcium-supplement-products/600d3-soft-chews/ expected [true] but found [false]
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace945747249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace945747249'><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/calcium-supplement-products/600d3-soft-chews/ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/calcium-supplement-products/600d3/</td>
+<td><div><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/calcium-supplement-products/600d3/ expected [true] but found [false]
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace762604772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace762604772'><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/calcium-supplement-products/600d3/ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/articles/osteoporosis-help-reduce-risk/</td>
+<td><div><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/bone-health-central/articles/osteoporosis-help-reduce-risk/ expected [true] but found [false]
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace931482420", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace931482420'><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/bone-health-central/articles/osteoporosis-help-reduce-risk/ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/calcium-supplement-products/gummy-bites/</td>
+<td><div><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/calcium-supplement-products/gummy-bites/ expected [true] but found [false]
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1498621286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1498621286'><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/calcium-supplement-products/gummy-bites/ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/calcium-supplement-products/why-choose-caltrate/</td>
+<td><div><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/calcium-supplement-products/why-choose-caltrate/ expected [true] but found [false]
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace49299717", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace49299717'><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/calcium-supplement-products/why-choose-caltrate/ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/calcium-supplement-products/600d3-plus-minerals-minis/</td>
+<td><div><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/calcium-supplement-products/600d3-plus-minerals-minis/ expected [true] but found [false]
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace648214521", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace648214521'><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/calcium-supplement-products/600d3-plus-minerals-minis/ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/health-care-professionals/</td>
+<td><div><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/health-care-professionals/ expected [true] but found [false]
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace368788838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace368788838'><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/health-care-professionals/ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/</td>
+<td><div><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/ expected [true] but found [false]
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace181326224", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace181326224'><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/articles/vitamin-d-and-your-health/</td>
+<td><div><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/bone-health-central/articles/vitamin-d-and-your-health/ expected [true] but found [false]
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1263461649", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1263461649'><pre>java.lang.AssertionError: Failed: Br tag is more than Eight---&gt; : https://www.caltrate.com/bone-health-central/articles/vitamin-d-and-your-health/ expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.qa.bens.checklist.page.CheckListBrTagPage.verifyBrTag(CheckListBrTagPage.java:38)
+	at com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag(CheckListBrTagTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/health-tips/make-breakfast-banana-split-get-more-calcium/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/calcium-supplement-products/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/coupons/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/articles/surgeon-generals-report/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/health-tips/convert-percentage-calcium-milligrams-adding-zero/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/tools/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/health-tips/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/health-care-professionals/is-osteoporosis-medicine-enough/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/recipes/kale-chips/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/health-tips/activate-your-muscles-ankle-weights-during-power-walk/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/osteoporosis/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/calcium-and-calcium-carbonate/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/articles/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/recipes/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/calcium-supplements/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/where-to-buy/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/contact/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/articles/calcium-carbonate-vs-calcium-citrate/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/health-tips/work-your-upper-body-yard-work/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/recipes/next-day-turkey-soup/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/articles/calcium-vitamin-d-supporting-your-bone-health/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/recipes/cheesy-cauliflower-soup/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/health-tips/add-cup-milk-your-favorite-soup-boost-calcium/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/recipes/arugula-salad/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/articles/benefits-vitamind3/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/vitamin-d/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/sitemap/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/health-tips/pumpkin-seeds-can-help-support-bone-health/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/recipes/salmon-cakes/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/health-tips/use-milk-and-add-almonds-oatmeal-boost-calcium/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/articles/trust-calcium-supplements-help-fill-your-nutritional-gap/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/recipes/summer-strong-shake/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/tools/calcium-at-every-age/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/articles/vitamin-d-deficiency/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CheckListBrTagTest.findingBrTag()'><b>findingBrTag</b><br>Test class: com.qa.bens.checklist.test.CheckListBrTagTest<br>Parameters: https://www.caltrate.com/bone-health-central/tools/caltrate-beyond-bones/</td>
+<td></td>
+<td>0</td>
+<td>com.qa.bens.checklist.test.CheckListBrTagTest@29215f06</td></tr>
+</table><p>
+</body>
+</html>

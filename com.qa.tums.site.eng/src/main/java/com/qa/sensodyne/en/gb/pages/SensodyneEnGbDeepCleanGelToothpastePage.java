@@ -1,0 +1,292 @@
+package com.qa.sensodyne.en.gb.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
+import com.qa.baseClass.BaseClass;
+
+public class SensodyneEnGbDeepCleanGelToothpastePage extends BaseClass{
+	
+	public SensodyneEnGbDeepCleanGelToothpastePage() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	@FindBy(xpath = "//button[text()='Accept All Cookies']")
+	private static WebElement cookieBtn;
+
+	@FindBy(xpath = "//*[@class='onetrust-pc-dark-filter ot-hide ot-fade-in']//self::div[contains(@style,'display: none;')]")
+	private static WebElement cookieClose;
+	
+	@FindBy(xpath = "//div[@class='breadcrumbs component section breadcrumbs-comp container-override first odd last col-xs-12']//ancestor::a[text()='Home']//self::a[@href='/en-gb/']")
+	private static WebElement breadcrumbOne;
+	
+	@FindBy(xpath = "//div[@class='breadcrumbs component section breadcrumbs-comp container-override first odd last col-xs-12']//ancestor::a[text()='Our Products']//self::a[@href='/en-gb/products/']")
+	private static WebElement breadcrumbTwo;
+	
+	@FindBy(xpath = "//div[@class='breadcrumbs component section breadcrumbs-comp container-override first odd last col-xs-12']//ancestor::a[text()='Deep Clean']//self::a[@href='/en-gb/products/deep-clean-gel-toothpaste/']")
+	private static WebElement breadcrumbThree;
+	
+	@FindBy(xpath = "//span[@class='ps-button-label' and text()='Buy Now']//ancestor::a")
+	private static WebElement buyNow;
+	
+	@FindBy(xpath = "//div[contains(@class,'ps-open')]")
+	private static WebElement buyNowText;
+	
+	@FindBy(xpath = "//span[@class='ps-lightbox-close']")
+	private static WebElement buyNowClose;
+	
+	@FindBy(xpath = "(//div[@style='display: none; z-index: -10000; opacity: 0;'])[2]")
+	private static WebElement buyNowCloseVerify;
+	
+	
+	@FindBy(xpath = "//span[text()='Ingredients']//ancestor::li[@class='tabs-nav-item odd first']")
+	private static WebElement tabIngredients;
+	
+	@FindBy(xpath = "//span[text()='Ingredients']//ancestor::li[@class='tabs-nav-item odd first is-active']")
+	private static WebElement tabIngredientsActive;
+	
+	@FindBy(xpath = "//span[text()='Directions']//ancestor::li[@class='tabs-nav-item even ']")
+	private static WebElement tabDirections;
+	
+	@FindBy(xpath = "//span[text()='Directions']//ancestor::li[@class='tabs-nav-item even is-active']")
+	private static WebElement tabDirectionsActive;
+	
+	@FindBy(xpath = "//span[text()='Warnings']//ancestor::li[@class='tabs-nav-item odd last']")
+	private static WebElement tabWarnings;
+	
+	@FindBy(xpath = "//span[text()='Warnings']//ancestor::li[@class='tabs-nav-item odd last is-active']")
+	private static WebElement tabWarningsActive;
+	
+	
+	@FindBy(xpath = "//button[@data-v-src='https://www.youtube.com/embed/o280WUg8DuU']//i[@class='icon icon-video-play']")
+	private static WebElement youTube;
+	
+	@FindBy(xpath = "//div[@class='parametrizedhtml component section video-int even col-xs-12 col-md-12 reference-videos-custom-component']//iframe[@id='ytplayer']")
+	private static WebElement iframe;
+
+	@FindBy(xpath = "//button[@class='ytp-large-play-button ytp-button ytp-large-play-button-red-bg']")
+	private static WebElement videoPlayIcon;
+
+	@FindBy(xpath = "//div[@id='movie_player']")
+	private static WebElement videoClick;
+
+	@FindBy(xpath = "//div[contains(@class,'playing-mode')]")
+	private static WebElement playingMode;
+
+	@FindBy(xpath = "//div[contains(@class,'paused-mode')]")
+	private static WebElement pausedMode;
+	
+	@FindBy(xpath = "(//div[@class='close'])[1]")
+	private static WebElement youtubeClose;
+	
+	@FindBy(xpath = "//div[@style='display: none;']//preceding::button[@data-v-src='https://www.youtube.com/embed/o280WUg8DuU']")
+	private static WebElement youtubeCloseVerify;
+	
+	
+	@FindBy(xpath = "//span[text()='Most Popular Products']//following::a[text()='Repair & Protect']//self::a[@href='/en-gb/products/repair-and-protect-toothpaste/']")
+	private static WebElement mostPopularProductsOne;
+	
+	@FindBy(xpath = "//span[text()='Most Popular Products']//following::span[text()='Sensitivity & Gum']//ancestor::a[@href='/en-gb/products/sensitivity-and-gum-toothpaste/']")
+	private static WebElement mostPopularProductsTwo;
+	
+	@FindBy(xpath = "//span[text()='Most Popular Products']//following::a[text()='Gentle Whitening']//self::a[@href='/en-gb/products/daily-care-gentle-whitening-toothpaste/']")
+	private static WebElement mostPopularProductsThree;
+	
+	@FindBy(xpath = "//span[text()='Most Popular Products']//following::a[text()='Repair & Protect Toothbrush']//ancestor::a[@href='/en-gb/products/repair-and-protect-toothbrush/']")
+	private static WebElement mostPopularProductsFour;
+	
+	@FindBy(xpath = "//a[@href='/en-gb/where-to-buy/']//img[@alt='Arrow to find your store and purchase Sensodyne toothpaste']")
+	private static WebElement findYourStore;
+	
+	
+	public void clickCookieBtn() throws Exception {
+		waitForPageLoadJava();
+		if (isElementPresent(cookieBtn)) {
+			elementToBeClickable(cookieBtn);
+			try {
+				if (cookieBtn.isDisplayed()) {
+					clickElementUsingJavaScript(cookieBtn);
+				}
+				implicitWait();
+				Assert.assertTrue(elementIsDisplayed(cookieClose));
+			} catch (Exception e) {
+			}
+		}else {
+			System.out.println("Dismiss is not presented");
+			throw new Exception("Unable to click on cookie Pop-up");
+		}
+	}
+	
+	public void clickBreadcrumbOne() throws Exception{
+		waitForPageLoadJava();
+		if (isElementPresent(breadcrumbOne)) {
+			scrollDownUsingElement(breadcrumbOne);
+			clickElementUsingJavaScript(breadcrumbOne);
+			pageLoad();
+			System.out.println("Breadcrumb One clicked successfully");
+		} else {
+			System.out.println("Breadcrumb One is not presented in the page");
+			throw new Exception("Breadcrumb One is not presented in the page");
+		}
+	}
+
+	public void clickBreadcrumbTwo() throws Exception{
+		waitForPageLoadJava();
+		if (isElementPresent(breadcrumbTwo)) {
+			scrollDownUsingElement(breadcrumbTwo);
+			clickElementUsingJavaScript(breadcrumbTwo);
+			pageLoad();
+			System.out.println("Breadcrumb Two clicked successfully");
+		} else {
+			System.out.println("Breadcrumb Two is not presented in the page");
+			throw new Exception("Breadcrumb Two is not presented in the page");
+		}
+	}
+
+	public void clickBreadcrumbThree() throws Exception{
+		waitForPageLoadJava();
+		if (isElementPresent(breadcrumbThree)) {
+			scrollDownUsingElement(breadcrumbThree);
+//			String href = breadcrumbThree.getAttribute("href");
+//	        boolean hasValidUrl = href != null && !href.isEmpty();
+//	        Assert.assertFalse(hasValidUrl);
+			clickElementUsingJavaScript(breadcrumbThree);
+			pageLoad();
+			System.out.println("Breadcrumb Three verified successfully");
+		} else {
+			System.out.println("Breadcrumb Three is not presented in the page");
+			throw new Exception("Breadcrumb Three is not presented in the page");
+		}
+	}
+	
+	public void clickBuyNow() throws Exception{
+		waitForPageLoadJava();
+		if (isElementPresent(buyNow)) {
+			scrollDownUsingElement(buyNow);
+			clickElementUsingJavaScript(buyNow);
+			visibilityOf(buyNowText);
+			Assert.assertTrue(elementIsDisplayed(buyNowText));
+			clickElementUsingJavaScript(buyNowClose);
+			visibilityOf(buyNowCloseVerify);
+			Assert.assertTrue(elementIsDisplayed(buyNowCloseVerify));
+			System.out.println("Buy Now verified successfully");
+		} else {
+			System.out.println("Buy Now is not presented in the page");
+			throw new Exception("Buy Now is not presented in the page");
+		}
+	}
+	
+	public void clickYoutubeVideo() throws Exception{
+		waitForPageLoadJava();
+		if (isElementPresent(youTube)) {
+			scrollDownUsingElement(youTube);
+			clickElementUsingJavaScript(youTube);
+			switchToFrameUsingElement(iframe);
+			visibilityOf(videoPlayIcon);
+			moveToElement(videoPlayIcon);
+			actionClick(videoPlayIcon);
+			Thread.sleep(5000);
+			visibilityOf(playingMode);
+			Assert.assertTrue(elementIsDisplayed(playingMode));
+			clickElementUsingJavaScript(videoClick);
+			visibilityOf(pausedMode);
+			Assert.assertTrue(elementIsDisplayed(pausedMode));
+			frameSwitchingToParentFrame();
+//			frameSwitchingToDefaultContent();
+			visibilityOf(youtubeClose);
+			moveToElement(youtubeClose);
+			actionClick(youtubeClose);
+			visibilityOf(youtubeCloseVerify);
+			Assert.assertTrue(elementIsDisplayed(youtubeCloseVerify));
+			System.out.println("Youtuve video Successfully verified");
+		} else {
+			System.out.println("Youtube play icon is not presented in the page");
+			throw new Exception("Youtube play icon is not presented in the page");
+			}
+		}
+	
+	
+	public void clickTabSection() throws Exception{
+		waitForPageLoadJava();
+		if (isElementPresent(tabIngredientsActive)) {
+			clickElementUsingJavaScript(tabDirections);
+			visibilityOf(tabDirectionsActive);
+			Assert.assertTrue(elementIsDisplayed(tabDirectionsActive));
+			clickElementUsingJavaScript(tabWarnings);
+			visibilityOf(tabWarningsActive);
+			Assert.assertTrue(elementIsDisplayed(tabWarningsActive));
+			clickElementUsingJavaScript(tabIngredients);
+			visibilityOf(tabIngredientsActive);
+			Assert.assertTrue(elementIsDisplayed(tabIngredientsActive));
+			System.out.println("Tab section verified Successfully");
+		} else {
+			System.out.println("Tab Ingredients is not active in the page");
+			throw new Exception("Tab Ingredients is not active in the page");
+		}
+	}
+	
+	public void clickMostPopularProductOne() throws Exception{
+		waitForPageLoadJava();
+		if (isElementPresent(mostPopularProductsOne)) {
+			scrollDownUsingElement(mostPopularProductsOne);
+			clickElementUsingJavaScript(mostPopularProductsOne);
+			pageLoad();
+		} else {
+			System.out.println("Most Popular Products One is not presented in the page");
+			throw new Exception("Most Popular Products One is not presented in the page");
+		}
+	}
+	
+	public void clickMostPopularProductTwo() throws Exception{
+		waitForPageLoadJava();
+		if (isElementPresent(mostPopularProductsTwo)) {
+			scrollDownUsingElement(mostPopularProductsTwo);
+			clickElementUsingJavaScript(mostPopularProductsTwo);
+			pageLoad();
+		} else {
+			System.out.println("Most Popular Products Two is not presented in the page");
+			throw new Exception("Most Popular Products Two is not presented in the page");
+		}
+	}
+	
+	public void clickMostPopularProductThree() throws Exception{
+		waitForPageLoadJava();
+		if (isElementPresent(mostPopularProductsThree)) {
+			scrollDownUsingElement(mostPopularProductsThree);
+			clickElementUsingJavaScript(mostPopularProductsThree);
+			pageLoad();
+		} else {
+			System.out.println("Most Popular Products Three is not presented in the page");
+			throw new Exception("Most Popular Products Three is not presented in the page");
+		}
+	}
+	
+	public void clickMostPopularProductFour() throws Exception{
+		waitForPageLoadJava();
+		if (isElementPresent(mostPopularProductsFour)) {
+			scrollDownUsingElement(mostPopularProductsFour);
+			clickElementUsingJavaScript(mostPopularProductsFour);
+			pageLoad();
+		} else {
+			System.out.println("Most Popular Products Four is not presented in the page");
+			throw new Exception("Most Popular Products Four is not presented in the page");
+		}
+	}
+	
+	
+	public void clickFindYourStore() throws Exception{
+		waitForPageLoadJava();
+		if (isElementPresent(findYourStore)) {
+			scrollDownUsingElement(findYourStore);
+			clickElementUsingJavaScript(findYourStore);
+			pageLoad();
+		} else {
+			System.out.println("Find your store is not presented in the page");
+			throw new Exception("Find your store is not presented in the page");
+		}
+	}
+	
+
+}

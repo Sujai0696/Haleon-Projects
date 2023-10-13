@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Abreva_Automation_Test]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.tums.eng.util.Transformer"/>
+    <listener class-name="com.qa.tums.eng.util.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Abreva Automation Test(failed)">
+    <classes>
+      <class name="com.qa.abreva.test.AbrevaPlanForImportantDaysTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="verifyBuyNow"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaPlanForImportantDaysTest -->
+      <class name="com.qa.abreva.test.AbrevaFeverBlisterVsColdSoreTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="verifyGetcoupon"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="launchingTheBrowser"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaFeverBlisterVsColdSoreTest -->
+      <class name="com.qa.abreva.test.AbrevaSunAndColdSoresTest">
+        <methods>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="verifyBuyNow"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaSunAndColdSoresTest -->
+      <class name="com.qa.abreva.test.AbrevaColdSoreConfidenceTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="verifyGetcoupon"/>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaColdSoreConfidenceTest -->
+      <class name="com.qa.abreva.test.AbrevaDoColdSoresMeanYouHaveStdTest">
+        <methods>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="verifyHyperLinkHsvVirus"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaDoColdSoresMeanYouHaveStdTest -->
+      <class name="com.qa.abreva.test.AbrevaWhenToUseAbrevaTest">
+        <methods>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="verifyGetcoupon"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaWhenToUseAbrevaTest -->
+      <class name="com.qa.abreva.test.AbrevaUnderstandingColdSoresTest">
+        <methods>
+          <include name="verifyGetcoupon"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaUnderstandingColdSoresTest -->
+      <class name="com.qa.abreva.test.AbrevaToothpasteOnColdSoresTest">
+        <methods>
+          <include name="verifyHyperLinkTinglingOrBurningSensations"/>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="verifyGetcoupon"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaToothpasteOnColdSoresTest -->
+      <class name="com.qa.abreva.test.AbrevaHowToTreatAColdSoreTest">
+        <methods>
+          <include name="verifyGetcoupon"/>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaHowToTreatAColdSoreTest -->
+      <class name="com.qa.abreva.test.AbrevaWhatAntiviralColdSoreMedicationIsRightForMeTest">
+        <methods>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="verifyBannerLinkOne"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaWhatAntiviralColdSoreMedicationIsRightForMeTest -->
+      <class name="com.qa.abreva.test.AbrevaWhyDoIKeepGettingColdSoresTest">
+        <methods>
+          <include name="verifyHyperLinkTheCOldSoreVirus"/>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="verifyHyperLinkAvoidOralContactLikeKissing"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaWhyDoIKeepGettingColdSoresTest -->
+      <class name="com.qa.abreva.test.AbrevaCommonLipProblemsTest">
+        <methods>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="verifyHyperLinkPersonToPersonContactLikeKissing"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaCommonLipProblemsTest -->
+      <class name="com.qa.abreva.test.AbrevaHowToUseAbrevaTest">
+        <methods>
+          <include name="verifyAccordionThirteen"/>
+          <include name="launchingTheUrl"/>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="verifyAccordionTweleve"/>
+          <include name="verifyGetcoupon"/>
+          <include name="verifyAccordionEleven"/>
+          <include name="startReport"/>
+          <include name="verifyBuyNow"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaHowToUseAbrevaTest -->
+      <class name="com.qa.abreva.test.AbrevaUsingMyFsaOrHsaToPurchaseTest">
+        <methods>
+          <include name="verifyHyperLinkFaqPage"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="verifyGetcoupon"/>
+          <include name="verifyHyperLinkAbrevaProducts"/>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaUsingMyFsaOrHsaToPurchaseTest -->
+      <class name="com.qa.abreva.test.AbrevaHowToHealColdSoreScabTest">
+        <methods>
+          <include name="verifyBuyNow"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="verifyGetcoupon"/>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaHowToHealColdSoreScabTest -->
+      <class name="com.qa.abreva.test.AbrevaColdSoreConfessionsTest">
+        <methods>
+          <include name="verifyGetcoupon"/>
+          <include name="endReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaColdSoreConfessionsTest -->
+      <class name="com.qa.abreva.test.AbrevaNoseColdSoresTest">
+        <methods>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyGetcoupon"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaNoseColdSoresTest -->
+      <class name="com.qa.abreva.test.AbrevaHydrateChappedLipsTest">
+        <methods>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifyTakeAQuiz"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaHydrateChappedLipsTest -->
+      <class name="com.qa.abreva.test.AbrevaAbrevaBasicsTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="verifyGetcoupon"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaAbrevaBasicsTest -->
+      <class name="com.qa.abreva.test.AbrevaTriggerFreeSummerVacatioPlanningTest">
+        <methods>
+          <include name="verifyWholeCardSecThree"/>
+          <include name="endReport"/>
+          <include name="verifyHyperLinkStressWearsDown"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyGetcoupon"/>
+        </methods>
+      </class> <!-- com.qa.abreva.test.AbrevaTriggerFreeSummerVacatioPlanningTest -->
+    </classes>
+  </test> <!-- Abreva Automation Test(failed) -->
+</suite> <!-- Failed suite [Abreva_Automation_Test] -->

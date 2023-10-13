@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="H1 Tag Verification_Sujai">
+<listeners>
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+  <test  name="H1 Tag Verification for Centrum HK">
+    <classes>
+      <class name="com.qa.bens.checklist.test.H1TagVerificationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

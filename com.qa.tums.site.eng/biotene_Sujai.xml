@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.biotene.test.BioteneDryMouthDiagnosisTest"/>
+      <class name="com.qa.biotene.test.BioteneDryMouthReliefTest"/>
+      <class name="com.qa.biotene.test.BioteneSaveNowTest"/>
+      <class name="com.qa.biotene.test.BioteneDryMouthProductsTest"/>
+      <class name="com.qa.biotene.test.BioteneDryMouthCausesMedicationsTest"/>
+      <class name="com.qa.biotene.test.BioteneShopNowTest"/>
+      <class name="com.qa.biotene.test.BioteneUnderstandingDryMouthTest"/>
+      <class name="com.qa.biotene.test.BioteneHomepageTest"/>
+      <class name="com.qa.biotene.test.BioteneNaturalRemediesDryMouthTest"/>
+      <class name="com.qa.biotene.test.BioteneLozengesText"/>
+      <class name="com.qa.biotene.test.BioteneDryMouthSalivaTest"/>
+      <class name="com.qa.biotene.test.BioteneFreshMintToothPasteTest"/>
+      <class name="com.qa.biotene.test.BioteneGentleToothpasteTest"/>
+      <class name="com.qa.biotene.test.BioteneMouthwashTest"/>
+      <class name="com.qa.biotene.test.BioteneDryMouthSymptomsTest"/>
+      <class name="com.qa.biotene.test.BioteneRecognizingDryMouthTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

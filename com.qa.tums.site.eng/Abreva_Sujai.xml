@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Abreva_Automation_Test">
+	<listeners>
+		<listener class-name="com.qa.tums.eng.util.Transformer" />
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+	<test name="Abreva Automation Test">
+		<classes>
+      <class name="com.qa.abreva.test.AbrevaSunAndColdSoresTest"/>
+      <class name="com.qa.abreva.test.AbrevaWhatAntiviralColdSoreMedicationIsRightForMeTest"/>
+      <class name="com.qa.abreva.test.AbrevaDoColdSoresMeanYouHaveStdTest"/>
+      <class name="com.qa.abreva.test.AbrevaPregnancyAndPeriodsTest"/>
+      <class name="com.qa.abreva.test.AbrevaExerciseTest"/>
+      <class name="com.qa.abreva.test.AbrevaMoneyManagementTipsTest"/>
+      <class name="com.qa.abreva.test.AbrevaHowToUseAbrevaTest"/>
+      <class name="com.qa.abreva.test.AbrevaRelaxationTechniquesTest"/>
+      <class name="com.qa.abreva.test.AbrevaUsingMyFsaOrHsaToPurchaseTest"/>
+      <class name="com.qa.abreva.test.AbrevaColdAndFluTest"/>
+      <class name="com.qa.abreva.test.AbrevaHowToTreatAColdSoreTest"/>
+      <class name="com.qa.abreva.test.AbrevaCopingWithLossOrIllnessTest"/>
+      <class name="com.qa.abreva.test.AbrevaLipFillersAndColdSoresTest"/>
+      <class name="com.qa.abreva.test.AbrevaSleepTest"/>
+      <class name="com.qa.abreva.test.AbrevaStressTest"/>
+      <class name="com.qa.abreva.test.AbrevaAbrevaBasicsTest"/>
+      <class name="com.qa.abreva.test.AbrevaHydrateChappedLipsTest"/>
+      <class name="com.qa.abreva.test.AbrevaStressAtWorkTest"/>
+      <class name="com.qa.abreva.test.AbrevaNoseColdSoresTest"/>
+      <class name="com.qa.abreva.test.AbrevaUnderstandingColdSoresTest"/>
+      <class name="com.qa.abreva.test.AbrevaColdSoresAndStressTest"/>
+      <class name="com.qa.abreva.test.AbrevaColdWeatherTest"/>
+      <class name="com.qa.abreva.test.AbrevaHowToHealColdSoreScabTest"/>
+      <class name="com.qa.abreva.test.AbrevaManagingTeenageStressTest"/>
+      <class name="com.qa.abreva.test.AbrevaDentistVisitTest"/>
+      <class name="com.qa.abreva.test.AbrevaCommonLipProblemsTest"/>
+      <class name="com.qa.abreva.test.AbrevaCanYouPutAloeVeraOnColdSoresTest"/>
+      <class name="com.qa.abreva.test.AbrevaFeverBlisterVsColdSoreTest"/>
+      <class name="com.qa.abreva.test.AbrevaWhenToUseAbrevaTest"/>
+      <class name="com.qa.abreva.test.AbrevaColdSoreConfidenceTest"/>
+      <class name="com.qa.abreva.test.AbrevaLipCareVsLipHealthTest"/>
+      <class name="com.qa.abreva.test.AbrevaWhatAreColdSoresTest"/>
+      <class name="com.qa.abreva.test.AbrevaTriggerFreeSummerVacatioPlanningTest"/>
+      <class name="com.qa.abreva.test.AbrevaToothpasteOnColdSoresTest"/>
+      <class name="com.qa.abreva.test.AbrevaColdSoreConfessionsTest"/>
+      <class name="com.qa.abreva.test.AbrevaPlanForImportantDaysTest"/>
+      <class name="com.qa.abreva.test.AbrevaWhyDoIKeepGettingColdSoresTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

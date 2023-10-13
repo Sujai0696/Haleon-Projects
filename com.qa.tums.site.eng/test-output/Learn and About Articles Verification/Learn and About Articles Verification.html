@@ -1,0 +1,679 @@
+<html>
+<head>
+<title>TestNG:  Learn and About Articles Verification</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Learn and About Articles Verification</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>120/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 19 11:58:49 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>4366 seconds (4366814 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/how-much-melatonin-should-i-take/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/iodine-inadequacy/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/ashwagandha-supplements-for-stress/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/whats-good-for-the-heart-is-good-for-the-brain/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/zinc/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/coupons/</td>
+<td></td>
+<td>45</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/products/multivitamins/centrum-with-lutein/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/products/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/products/vitamin-packs/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/how-supplements-work/debunking-vitamin-myths/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/wellness-benefits/digestive-health/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/paleo-vitamins-supplements/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/food-and-nutrition/what-your-diet-may-be-missing/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/best-vitamins-for-women/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/phosphorus/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/products/multivitamins/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/18-wellness-tips-for-a-healthier-you/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/meditation-for-stress/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/non-gmo-gluten-free-standard/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/search-results/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/how-supplements-work/gummy-vitamins/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/products/multivitamins/centrum-junior/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/5-vitamins-for-women-over-50/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/sitemap/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/wellness-benefits/immune-health/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/pantothenic-acid/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/which-vitamins-are-antioxidants/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/products/targeted-supplements/centrum-energy/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/natural-sources-of-zinc/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/wellness-benefits/heart-health/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/healthy-homemade-lunch-ideas/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/working-at-home-with-kids/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/wellness-benefits/bone-health/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/best-vitamins-for-healthy-aging/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/food-and-nutrition/4-tips-for-a-more-balanced-diet/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/wellness-benefits/energy/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/chloride/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/about/centrums-new-look/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/best-vitamins-for-kids/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/products/targeted-supplements/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/food-and-nutrition/food-vs-vitamin-comparison/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/how-to-make-coffee-at-home/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/natural-ways-to-improve-circulation/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/unsubscribe/</td>
+<td></td>
+<td>53</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/multivitamins-for-kids/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/magnesium/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/our-story/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/product-recommendation-tool-quiz/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/food-and-nutrition/what-to-eat-to-support-your-immune-health/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/contact-form/</td>
+<td></td>
+<td>22</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/where-to-buy/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/lutein/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/benefits-of-vitamin-e/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/iodine/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/niacin/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/bone-health-and-osteoporosis/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/riboflavin/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/how-much-b12-should-you-take-a-day/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/best-vitamins-for-men/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/potassium/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/menopause-and-calcium-intake/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/strategies-to-support-brain-health/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/vitamins-to-take-daily/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/product-comparison-page/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/biotin-for-men/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/how-supplements-multivitamins-work-together/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/selenium/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/calcium/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/how-supplements-work/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/how-supplements-work/are-the-nutrients-in-supplements-absorbed/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/thiamin/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/products/multivitamins/centrum-silver-with-lutein/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/how-to-take-vitamins-when/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/how-vitamin-d-benefits-your-health/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/products/multivitamins/centrum-women/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/vitamin-c-benefits/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/multivitamins-with-iron-for-women/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/about/science-behind-centrum/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/vitamins-easily-fit-into-lifestyle/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/benefits-folic-acid-for-women/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/wellness-benefits/hair-skin-nails/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/10-simple-ways-to-live-a-healthier-life/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/supplements-for-cognitive-function/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/top-5-nutrients-for-men-over-50/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/nutrient-needs-throughout-pregnancy/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/iron/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/copper/</td>
+<td></td>
+<td>26</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/the-benefits-of-omega-3-supplements/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/biotin/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/what-is-ashwangandha/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/products/multivitamins/centrum-men/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/6-simple-ways-to-boost-your-energy/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/food-mood-connection/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/over-50-what-your-body-needs-more-of-now/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/5-vitamins-and-minerals-for-healthy-eyes/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/beta-carotene/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/chromium/</td>
+<td></td>
+<td>28</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/complexion-protection/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/choosing-a-daily-multivitamin/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/why-are-vitamins-important/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/keto-vitamins/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/wellness-routine/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/molybdenum/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/folic-acid/</td>
+<td></td>
+<td>32</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/how-to-avoid-boredom-when-sick/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/food-and-nutrition/vitamins-and-vegan-diet/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/food-and-nutrition/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/nutrients-and-routine/the-abc-s-of-vitamin-d/</td>
+<td></td>
+<td>42</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/about/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/health-and-lifestyle-tips/how-to-keep-your-bones-healthy-and-strong/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/articles/how-supplements-work/how-do-vitamins-work/</td>
+<td></td>
+<td>43</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/wellness-benefits/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/about/faqs/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.CentrumGneTest.findingLearnArticles()'><b>findingLearnArticles</b><br>Test class: com.qa.bens.checklist.test.CentrumGneTest<br>Parameters: https://haleonstaging1:Health2023@centrumarabia-com.preprod-cf65.ch.adobecqms.net/en-gne/learn/vitamins-minerals/manganese/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.CentrumGneTest@173ed316</td></tr>
+</table><p>
+</body>
+</html>

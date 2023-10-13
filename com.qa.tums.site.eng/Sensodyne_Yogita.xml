@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sensodyne_Test_Yogita">
+  <listeners>
+        <listener class-name="com.qa.tums.eng.util.ListenerClass"/>
+         <listener class-name="com.qa.tums.eng.util.Transformer"/>
+    </listeners>
+  <test  name="Automation_Test">
+    <classes>
+      <class name="com.qa.sensodyne.us.test.SensodyneAbout_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneAssessingToothpain_Test"/>
+      <class name="com.qa.sensodyne.us.test.Sensodynebrushingflossingteeth_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneCausesSensitiveTeeth_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneCavityvsSensitivity_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneCompleteProtectionToothpaste_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneCovid19_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneDentistwantPeopletoknow_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneenamelstrengtheningToothpaste_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneEngineeredForSpeed_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneExtraFreshBreatheToothpaste_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneFastSensitiveTeethRelief_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneFlossingTipsforDentist_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneGumWhiteningToothpaste_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneHeader_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodynehealthissueIgnore_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneHowtohelpSensitiveTeeth_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneIngredients_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneMantrasIncreasePositivity_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneNaturalWhiteToothpaste_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneNourish_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneNourishgentlySoothing_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneNourishSensitivityToothpaste_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneOralHealthTipsIngredients_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodynePlagueandGumProtection_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneProductResult_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneFAQ_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSitemap_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneRapidReliefMintToothpaste_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneRapidReliefwhiteningToothpaste_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneRitualstoReduceStress_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneScienceBehindRelief_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneScienceofSpeed_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSensitivecareToothbrush_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSensitiveTeethWhiteningTips_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSensitivitygumfreshToothpaste_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSensitivityGummintToothpaste_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSodiumlaurylsulphateToothpaste_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSpeedofSensation_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSymptonsSensitiveTeeth_Test"/>
+      <class name="com.qa.sensodyne.us.test.Sensodyneteethwhiteningkitharm_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneTeethWhiteningToothPastes_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodynetoothSensitivityafterDentist_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneTrainingforSpeed_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneTreatingSensitiveTeeth_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneTrueWhiteIngredients_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneunexpectedwaysStressaffect_Test"/>
+      <class name="com.qa.sensodyne.us.test.Sensodynevspronamel_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneWhattoKnow_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneWheretobuy_Test"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneWhiteningProductsImpact_Test"/>
+       <class name="com.qa.sensodyne.us.test.SensodyneWhiteningSensitiveTeeth_Test"/>    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

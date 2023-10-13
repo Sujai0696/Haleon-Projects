@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dr.Best_Automation_Test">
+	<listeners>
+		<listener class-name="com.qa.tums.eng.util.Transformer" />
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+	<test name="Dr.Best Automation Test">
+		<classes>
+      <class name="com.qa.drbest.ge.test.drbestInterdentalTest"/>
+      <class name="com.qa.drbest.ge.test.drbestPremiumInterdentaktivTest"/>
+      <class name="com.qa.drbest.ge.test.drbestKontaktTest"/>
+      <class name="com.qa.drbest.ge.test.drbestKinderCoolKidsTest"/>
+      <class name="com.qa.drbest.ge.test.DrBestkinderErsteZahneTest"/>
+      <class name="com.qa.drbest.ge.test.drbestErwachseneTest"/>
+      <class name="com.qa.drbest.ge.test.drbestgreensensitiveTest"/>
+      <class name="com.qa.drbest.ge.test.DrBestProfessionalPolimedKurzkopTest"/>
+      <class name="com.qa.drbest.ge.test.drbestVibrationPolimedTest"/>
+      <class name="com.qa.drbest.ge.test.drbestZahnbuerstenTest"/>
+      <class name="com.qa.drbest.ge.test.drbestBambusInterdentkidsTest"/>
+      <class name="com.qa.drbest.ge.test.drbestbeifestenZahnspangenTest"/>
+      <class name="com.qa.drbest.ge.test.DrBestBiokunststoffTest"/>
+      <class name="com.qa.drbest.ge.test.drbestPremiumxzZwischenzahnTest"/>
+      <class name="com.qa.drbest.ge.test.drbestClassicSchwingkopfTest"/>
+      <class name="com.qa.drbest.ge.test.drbestBambusInterdentTest"/>
+      <class name="com.qa.drbest.ge.test.drbestVibrationJuniorzahnTest"/>
+      <class name="com.qa.drbest.ge.test.drbestHomepageTest"/>
+      <class name="com.qa.drbest.ge.test.DrBestPlastikfreiTest"/>
+      <class name="com.qa.drbest.ge.test.drbestClassichochtiefTest"/>
+      <class name="com.qa.drbest.ge.test.drbestBeizahnersatzTest"/>
+      <class name="com.qa.drbest.ge.test.DrBestBambusTest"/>
+      <class name="com.qa.drbest.ge.test.drbestInterdentAktivTest"/>
+      <class name="com.qa.drbest.ge.test.drbestMundgeruchTest"/>
+      <class name="com.qa.drbest.ge.test.drbestzahnputztechnikkinderTest"/>
+      <class name="com.qa.drbest.ge.test.drbestKinderZahnentwicklungTest"/>
+      <class name="com.qa.drbest.ge.test.drbestVibrationAtemfrischTest"/>
+      <class name="com.qa.drbest.ge.test.drbesteranehrungunTest"/>
+      <class name="com.qa.drbest.ge.test.drbestSitemapTest"/>
+      <class name="com.qa.drbest.ge.test.DrBestKlimaschutzprojektTest"/>
+      <class name="com.qa.drbest.ge.test.drbestNachhaltigkeitTest"/>
+      <class name="com.qa.drbest.ge.test.drbestSchutzKariesTest"/>
+      <class name="com.qa.drbest.ge.test.drbestClassicOriginalTest"/>
+      <class name="com.qa.drbest.ge.test.drbestKinderjuniorzahnTest"/>
+      <class name="com.qa.drbest.ge.test.drbestParodontitisTest"/>
+      <class name="com.qa.drbest.ge.test.drbesthilfsmittelTest"/>
+      <class name="com.qa.drbest.ge.test.drbestPremiumZwischenzahnTest"/>
+      <class name="com.qa.drbest.ge.test.drbestFooterTest"/>
+      <class name="com.qa.drbest.ge.test.drbestKinderpawpatrolMilchzahnTest"/>
+      <class name="com.qa.drbest.ge.test.drbestzahnpflegeTest"/>
+      <class name="com.qa.drbest.ge.test.drbestProfessionalPolimedTest"/>
+      <class name="com.qa.drbest.ge.test.DrBestKinderMilchzahnTest"/>
+      <class name="com.qa.drbest.ge.test.drbestweissereZaehneTest"/>
+      <class name="com.qa.drbest.ge.test.drbestProfessionalnatuerlichWeissTest"/>
+      <class name="com.qa.drbest.ge.test.drbestVibrationMultiexpertTest"/>
+      <class name="com.qa.drbest.ge.test.drbestempfindlicheTest"/>
+      <class name="com.qa.drbest.ge.test.drbestHeaderTest"/>
+      <class name="com.qa.drbest.ge.test.drbestgreencleanTest"/>
+      <class name="com.qa.drbest.ge.test.DrBestForschungTest"/>
+      <class name="com.qa.drbest.ge.test.DrBestProfessionalAtemfrischTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

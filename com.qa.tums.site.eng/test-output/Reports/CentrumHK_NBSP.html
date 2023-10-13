@@ -1,0 +1,4281 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href='http://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>Centrum HK</title>
+
+	<style type='text/css'>
+		/* json-tree */
+		.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:"Lucida Console",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}
+			
+            
+            .report-name { padding-left: 18px; } .report-name > img { float: 
+      left;height: 90%;margin-left: 30px;margin-top: 3px;width: auto; }
+        
+        
+	</style>
+	
+	<script type="text/javascript">
+		/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */
+		var JSONTree=function(){var n={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","/":"&#x2F;"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:"jstValue"})};var e=function(t){return t.replace(/[&<>'"]/g,function(t){return n[t]})},s=function(){return r+"_"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case"boolean":return l(n,r?t:0);case"number":return i(n,r?t:0);case"string":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g("{",r?t:0,e),N(u,{id:e}),p("}",t)].join("\n");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g("[",r?t:0,e),N(c,{id:e}),p("]",t)].join("\n")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:"jstStr"})},i=function(n,t){return N(v(n,t),{class:"jstNum"})},l=function(n,t){return N(v(n,t),{class:"jstBool"})},f=function(n){return N(v("null",n),{class:"jstNull"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+": ",r),c=N(u(t,r,!1),{});return N(s+c,{class:"jstProperty"})},m=function(){return N(",\n",{class:"jstComma"})},N=function(n,t){return d("span",t,n)},d=function(n,t,r){return"<"+n+Object.keys(t).map(function(n){return" "+n+'="'+t[n]+'"'}).join("")+">"+r+"</"+n+">"},g=function(n,t,r){return N(v(n,t),{class:"jstBracket"})+N("",{class:"jstFold",onclick:"JSONTree.toggle('"+r+"')"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;""===t.className?(t.className="jstHiddenBlock",r.className="jstFolded",e.className="jstExpand"):(t.className="",r.className="",e.className="jstFold")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(" ")+n};return this}();
+	</script>
+</head>
+	<body class='extent white default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo black"><img src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png"></a>
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+		</ul>
+		<!-- report name -->
+		<span class='report-name'>Centrum HK Automation Report
+         
+                <img src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\tumsLogo\Centrum logo.png'/>
+            
+        </span>
+		<!-- report headline -->
+		<span class='report-headline'></span>
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<a href='#!'>
+			<span class='label blue darken-3 suite-start-time'>May 31, 2023 12:24:59 PM</span>
+			</a>
+		</ul>
+	</div>
+</nav>		<!-- container -->
+		<div class='container'>
+<div id='test-view' class='view'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+			<!-- category toggle -->
+			<!-- category toggle -->
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+				<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+				<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+<div id='test-view-charts' class='subview-full'>
+    <div id='charts-row' class='row nm-v nm-h'>
+        <div class='col s12 m12 l12 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Tests</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='parent-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='26.027%'><span class='strong'>19</span> test(s) passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='73.973%'>54</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="timeline-chart" class="row nm-v nm-h">
+        <div class="col s12 m12 l12 np-h">
+            <div class="card-panel">
+                <div class='left panel-name'>Timeline (seconds)</div>
+                <div class="chart-box" style="width:98%;max-height:145px;">
+                    <canvas id="timeline" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='test-collection' class='test-collection'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:01 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:01 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:12 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+126ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:12 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:12 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:12 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:12 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122512.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122512.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122512.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:12 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:12 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:15 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+745ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:15 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/about/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:15 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:15 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:15 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:18 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+95ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:18 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/about/science-behind-centrum/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:18 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:18 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:18 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:20 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+234ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:20 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:20 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:20 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:20 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+109ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:22 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/wellness-benefits/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:22 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:22 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+18ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:25 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/wellness-benefits/energy/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:25 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:25 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+327ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:28 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/wellness-benefits/heart-health/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:28 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='8'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:28 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:28 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:32 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+422ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:32 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/wellness-benefits/immune-health/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:32 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:32 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/wellness-benefits/immune-health/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:32 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122532.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122532.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122532.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:32 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:32 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:35 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+249ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:35 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/wellness-benefits/digestive-health/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:35 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:35 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:35 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:38 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+69ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:38 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/wellness-benefits/bone-health/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:38 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:38 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:38 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:41 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+236ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:41 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/why-are-vitamins-important/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:41 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:41 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:41 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:44 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+3ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:44 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:25:44 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='13'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:44 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:44 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:48 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+97ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:47 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/beta-carotene/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:47 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:47 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/beta-carotene/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:48 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122547.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122547.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122547.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='14'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:48 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:48 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:51 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+97ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:51 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/biotin/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:51 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:51 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/biotin/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:51 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122551.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122551.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122551.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='15'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:51 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:51 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:54 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+64ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:54 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/calcium/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:54 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:54 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/calcium/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:54 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122554.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122554.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122554.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='16'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:54 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:54 PM</span>
+	<span class='label end-time'>May 31, 2023 12:25:57 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+996ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:57 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/chloride/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:57 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:57 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/chloride/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:25:57 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122557.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122557.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232531122557.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='17'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:25:57 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:25:57 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+163ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:00 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/chromium/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:00 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:00 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/chromium/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:00 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122600.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122600.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122600.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='18'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:00 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:00 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:03 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+19ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:03 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/copper/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:03 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:03 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/copper/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:03 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122603.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122603.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122603.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='19'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:03 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:03 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:06 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+277ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:06 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/folic-acid/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:06 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:06 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/folic-acid/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:06 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122606.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122606.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122606.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='20'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:06 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:06 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:09 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+994ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:09 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/iodine/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:09 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:09 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/iodine/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:09 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122609.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122609.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122609.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='21'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:09 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:09 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:12 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+80ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:12 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/iron/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:12 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:12 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/iron/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:12 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122612.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122612.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122612.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='22'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:12 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:12 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:15 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+15ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:15 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/lutein/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:15 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:15 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/lutein/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:15 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122615.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122615.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122615.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='23'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:15 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:15 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:18 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+113ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:18 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/lycopene/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:18 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:18 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/lycopene/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:18 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122618.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122618.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122618.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='24'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:18 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:18 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:21 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+137ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:21 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/magnesium/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:21 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:21 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/magnesium/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:21 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122621.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122621.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122621.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='25'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:21 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:21 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+7ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:24 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/manganese/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/manganese/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:24 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122624.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122624.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122624.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='26'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:24 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:24 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+43ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:27 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/molybdenum/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/molybdenum/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:28 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122627.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122627.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122627.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='27'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:28 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:28 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:31 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:30 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/niacin/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:30 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:30 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/niacin/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:31 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122630.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122630.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122630.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='28'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:31 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:31 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:34 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+44ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:33 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/omega-3-fatty-acids/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:33 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:33 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/omega-3-fatty-acids/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:34 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122633.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122633.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122633.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='29'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:34 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:34 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:37 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+114ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:37 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/pantothenic-acid/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:37 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:37 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/pantothenic-acid/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:37 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122637.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122637.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122637.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='30'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:37 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:37 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:40 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+48ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:40 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/phosphorus/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:40 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:40 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/phosphorus/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:40 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122640.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122640.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122640.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='31'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:40 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:40 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:43 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+147ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:43 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/potassium/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:43 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:43 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/potassium/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:43 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122643.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122643.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122643.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='32'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:43 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:43 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+996ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:46 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/riboflavin/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:46 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:46 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/riboflavin/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:46 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122646.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122646.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122646.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='33'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:46 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:46 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:49 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+66ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:49 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/selenium/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:49 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:49 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/selenium/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:49 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122649.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122649.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122649.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='34'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:49 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:49 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:52 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:52 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/thiamin/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:52 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:52 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/thiamin/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:52 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122652.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122652.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122652.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='35'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:52 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:52 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:55 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+66ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:55 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-a/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:55 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:55 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-a/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:55 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122655.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122655.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122655.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='36'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:55 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:55 PM</span>
+	<span class='label end-time'>May 31, 2023 12:26:58 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+81ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:58 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-b6/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:58 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:58 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-b6/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:26:58 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122658.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122658.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232631122658.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='37'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:26:58 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:26:58 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:01 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+31ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:01 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-b12/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:01 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:01 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-b12/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:01 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122701.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122701.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122701.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='38'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:01 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:01 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:04 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+981ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:04 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-c/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:04 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:04 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-c/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:04 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122704.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122704.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122704.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='39'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:04 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:04 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:07 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+264ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:07 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-d/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:07 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:07 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-d/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:07 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122707.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122707.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122707.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='40'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:07 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:07 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:10 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+39ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:10 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-e/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:10 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:10 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-e/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:10 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122710.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122710.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122710.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='41'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:10 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:10 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:13 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+6ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:13 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-k/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:13 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:13 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/vitamin-k/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:13 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122713.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122713.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122713.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='42'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:13 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:13 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:17 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+66ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:16 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/zinc/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:16 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:16 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/vitamins-minerals/zinc/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:17 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122716.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122716.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122716.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='43'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:17 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:17 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:19 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+878ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:19 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/about/faqs/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:19 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='44'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:19 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:19 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+997ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:22 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/contact-form/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:22 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/contact-form/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:22 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122722.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122722.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122722.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='45'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:22 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:22 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+690ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:25 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/404/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:25 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='46'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:25 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:28 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+769ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:28 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:28 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='47'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:28 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:28 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:30 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+139ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:30 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:30 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='48'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:30 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:30 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:33 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+839ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:33 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/how-to-take-vitamins-when/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:33 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:33 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/how-to-take-vitamins-when/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:33 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122733.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122733.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122733.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='49'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:33 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:33 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:36 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+981ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:36 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/how-supplements-work/how-do-vitamins-work/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:36 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:36 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/how-supplements-work/how-do-vitamins-work/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:36 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122736.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122736.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122736.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='50'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:36 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:36 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:39 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+785ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:39 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/how-supplements-work/are-the-nutrients-in-supplements-absorbed/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:39 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='51'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:39 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:39 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:42 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+10ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:41 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/5-vitamins-for-women-over-50/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:41 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:41 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/5-vitamins-for-women-over-50/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:42 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122741.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122741.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122741.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='52'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:42 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:42 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:45 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+3ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:44 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/5-vitamins-and-minerals-for-healthy-eyes/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:44 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:44 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/5-vitamins-and-minerals-for-healthy-eyes/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:45 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122744.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122744.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122744.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='53'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:45 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:45 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:48 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+958ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:47 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/the-abc-s-of-vitamin-d/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:47 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:47 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/the-abc-s-of-vitamin-d/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:48 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122747.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122747.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122747.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='54'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:48 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:48 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:50 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+845ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:50 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/top-5-nutrients-for-men-over-50/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:50 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:50 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/top-5-nutrients-for-men-over-50/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:50 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122750.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122750.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122750.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='55'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:50 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:50 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:53 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+832ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:53 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/benefits-of-vitamin-e/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:53 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:53 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/nutrients-and-routine/benefits-of-vitamin-e/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:53 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122753.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122753.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122753.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='56'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:53 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:53 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:56 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+789ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:56 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:56 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='57'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:56 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:56 PM</span>
+	<span class='label end-time'>May 31, 2023 12:27:59 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+890ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:59 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/10-simple-ways-to-live-a-healthier-life/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:59 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:59 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/10-simple-ways-to-live-a-healthier-life/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:59 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122759.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122759.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232731122759.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='58'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:27:59 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:27:59 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:02 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+755ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:28:02 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/wellness-routine/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:28:02 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='59'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:02 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:02 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:05 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+924ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:04 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/how-to-avoid-boredom-when-sick/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:04 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:04 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/how-to-avoid-boredom-when-sick/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:05 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122804.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122804.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122804.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='60'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:05 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:05 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:07 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+802ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:07 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/working-at-home-with-kids/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:07 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:07 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/working-at-home-with-kids/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:07 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122807.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122807.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122807.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='61'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:07 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:07 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:10 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+861ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:10 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/healthy-homemade-lunch-ideas/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:10 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:10 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/healthy-homemade-lunch-ideas/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:10 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122810.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122810.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122810.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='62'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:10 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:10 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:13 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+811ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:13 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/whats-good-for-the-heart-is-good-for-the-brain/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:13 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:13 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/whats-good-for-the-heart-is-good-for-the-brain/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:13 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122813.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122813.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122813.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='63'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:13 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:13 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:16 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+818ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:16 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/6-simple-ways-to-boost-your-energy/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:16 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:16 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/6-simple-ways-to-boost-your-energy/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:16 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122816.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122816.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122816.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='64'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:16 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:16 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:19 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+863ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:19 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/over-50-what-your-body-needs-more-of-now/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:19 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:19 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/over-50-what-your-body-needs-more-of-now/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:19 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122819.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122819.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122819.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='65'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:19 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:19 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+785ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:21 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/strategies-to-support-brain-health/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:21 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:21 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/strategies-to-support-brain-health/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:22 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122821.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122821.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122821.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='66'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:22 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:22 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:24 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+835ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:24 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/how-to-keep-your-bones-healthy-and-strong/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:24 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/how-to-keep-your-bones-healthy-and-strong/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:24 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122824.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122824.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122824.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='67'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:24 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:24 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:27 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+893ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:27 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/complexion-protection/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:27 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/health-and-lifestyle-tips/complexion-protection/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:27 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122827.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122827.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122827.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='68'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:27 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:27 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:30 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+869ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:30 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/food-and-nutrition/what-your-diet-may-be-missing/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:30 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:30 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/food-and-nutrition/what-your-diet-may-be-missing/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:30 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122830.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122830.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122830.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='69'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:30 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:30 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:33 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+861ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:33 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/food-and-nutrition/what-to-eat-to-support-your-immune-health/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:33 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:33 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/food-and-nutrition/what-to-eat-to-support-your-immune-health/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:33 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122833.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122833.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122833.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='70'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:33 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:33 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:36 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+986ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:36 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/food-and-nutrition/4-tips-for-a-more-balanced-diet/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:36 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:36 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/learn/articles/food-and-nutrition/4-tips-for-a-more-balanced-diet/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:36 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122836.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122836.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122836.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='71'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:36 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:36 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:39 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+632ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:28:39 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/where-to-buy/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:28:39 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='72'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:39 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:39 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:42 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+289ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:42 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/ :nbsp is Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:42 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>findingNbsp - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:42 PM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: nbsp is presented in the pagehttps://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/ expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:28:42 PM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122842.png' src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122842.png' data-src='C:\Users\sujsekar\Desktop\Automation Code\git\Automation-Code\com.qa.tums.site.eng\Screenshot\findingNbsp_20232831122842.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='73'>
+					<div class='test-heading'>
+						<span class='test-name'>findingNbsp</span>
+						<span class='test-time'>May 31, 2023 12:28:42 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 31, 2023 12:28:42 PM</span>
+	<span class='label end-time'>May 31, 2023 12:28:45 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+743ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:28:45 PM</td>
+				<td class='step-details'>
+						https://haleonstaging1:Health2023@centrum-com-hk-v2.preprod-cf65.ch.adobecqms.net/sitemap/ :nbsp is not Presented
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:28:45 PM</td>
+				<td class='step-details'>
+						Pass Test case is: findingNbsp
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<div id='step-filters' class="right sr-filters">
+				<a class="btn-floating waves-effect waves-light green" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></a>
+				<a class="btn-floating waves-effect waves-light red" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light red darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light pink text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></a>
+				<a class="btn-floating waves-effect waves-light orange" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></a>
+				<a class="btn-floating waves-effect waves-light teal" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></a>
+				<a class="btn-floating waves-effect waves-light grey" status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></a>
+			</div>
+			<h5 class='test-name'></h5>
+		</div>
+	</div>
+	<!-- subview right -->
+</div>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>73</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>0</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>May 31, 2023 12:24:59 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>May 31, 2023 12:28:45 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 3m 45s+537ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td>HostName</td>
+								<td>WKWZTPqvmdckJHX</td>
+							</tr>
+							<tr>
+								<td>ProjectName</td>
+								<td>Centrum_HK</td>
+							</tr>
+							<tr>
+								<td>Tester</td>
+								<td>Sujai Sekar</td>
+							</tr>
+							<tr>
+								<td>OS</td>
+								<td>Win11</td>
+							</tr>
+							<tr>
+								<td>Browser</td>
+								<td>Chrome</td>
+							</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->		</div>
+		<!-- container -->
+		<script>
+			var statusGroup = {
+                parentCount: 73,
+				passParent: 19,
+				failParent: 54,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 54,
+				childCount: 0,
+				passChild: 0,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				debugChild: 0,
+				exceptionsChild: 0,
+				grandChildCount: 0,
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				debugGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		<script>
+			var timeline = {
+			        "findingNbsp":11.126,"findingNbsp":2.745,"findingNbsp":3.095,"findingNbsp":2.234,"findingNbsp":2.109,"findingNbsp":3.018,"findingNbsp":3.327,"findingNbsp":3.422,"findingNbsp":3.249,"findingNbsp":3.069,"findingNbsp":3.236,"findingNbsp":3.003,"findingNbsp":3.097,"findingNbsp":3.097,"findingNbsp":3.064,"findingNbsp":2.996,"findingNbsp":3.163,"findingNbsp":3.019,"findingNbsp":3.277,"findingNbsp":2.994,"findingNbsp":3.08,"findingNbsp":3.015,"findingNbsp":3.113,"findingNbsp":3.137,"findingNbsp":3.007,"findingNbsp":3.043,"findingNbsp":3,"findingNbsp":3.044,"findingNbsp":3.114,"findingNbsp":3.048,"findingNbsp":3.147,"findingNbsp":2.996,"findingNbsp":3.066,"findingNbsp":3,"findingNbsp":3.066,"findingNbsp":3.081,"findingNbsp":3.031,"findingNbsp":2.981,"findingNbsp":3.264,"findingNbsp":3.039,"findingNbsp":3.006,"findingNbsp":3.066,"findingNbsp":2.878,"findingNbsp":2.997,"findingNbsp":2.69,"findingNbsp":2.769,"findingNbsp":2.139,"findingNbsp":2.839,"findingNbsp":2.981,"findingNbsp":2.785,"findingNbsp":3.01,"findingNbsp":3.003,"findingNbsp":2.958,"findingNbsp":2.845,"findingNbsp":2.832,"findingNbsp":2.789,"findingNbsp":2.89,"findingNbsp":2.755,"findingNbsp":2.924,"findingNbsp":2.802,"findingNbsp":2.861,"findingNbsp":2.811,"findingNbsp":2.818,"findingNbsp":2.863,"findingNbsp":2.785,"findingNbsp":2.835,"findingNbsp":2.893,"findingNbsp":2.869,"findingNbsp":2.861,"findingNbsp":2.986,"findingNbsp":2.632,"findingNbsp":3.289,"findingNbsp":2.743
+			};
+		</script>
+		<script src='http://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
+		<script type='text/javascript'>
+			
+            
+                $(document).ready(function() {
+                    
+                });
+            
+        
+		</script>
+	</body>
+</html>

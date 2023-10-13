@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.eno.co.in.test.enocoinDiwaliRamzanAcidityTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinInitialSymptomsAcidRefluxTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinHeartburnduringPregancyTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinConstantAcidityTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinControlAciditybusyLifestyleTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinHomeRemediesforAcidityTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinHomePageTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinHeaderTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinInitialSymptomsAcidityTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinFooterTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinLivingLifeAcidityFreeTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinUnderstandingHeartBurnTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinSitemapTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinHeartBurnTest"/>
+      <class name="com.qa.eno.co.in.test.enocoinUnderstandingDigestiveWellnessTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

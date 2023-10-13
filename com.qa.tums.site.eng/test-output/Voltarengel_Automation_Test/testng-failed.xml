@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Voltarengel_Automation_Test]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.tums.eng.util.Transformer"/>
+    <listener class-name="com.qa.tums.eng.util.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Voltarengel Automation Test(failed)">
+    <classes>
+      <class name="com.qa.voltarengel.test.VoltarengelHowToRelieveWristPainTest">
+        <methods>
+          <include name="launchingTheUrl"/>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="verifyHyperLinkWristPain"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelHowToRelieveWristPainTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelManagingArthritisTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="verifyBuyNow"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelManagingArthritisTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelJointPainMedicineTest">
+        <methods>
+          <include name="verifyRelatedArticleReadMoreTwo"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifyHyperLinkAdvil"/>
+          <include name="endReport"/>
+          <include name="verifyBuyNow"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="verifyBreadcrumbThree"/>
+          <include name="verifyRelatedArticleReadMoreOne"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelJointPainMedicineTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelWristTest">
+        <methods>
+          <include name="verifyRelatedArticleReadMoreOne"/>
+          <include name="endReport"/>
+          <include name="verifyHyperLinkVoltarenArthritisPainGel"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyRelatedArticleReadMoreTwo"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="verifyHyperLinkADayJob"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelWristTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelFootTest">
+        <methods>
+          <include name="verifyRelatedArticleReadMoreTwo"/>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="verifyRelatedArticleReadMoreOne"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelFootTest -->
+      <class name="com.qa.voltarengel.test.VoltarenWhatIsCaregiverRoleStrainTest">
+        <methods>
+          <include name="verifyBuyNow"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="launchingTheBrowser"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarenWhatIsCaregiverRoleStrainTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelFoodsToAvoidforArthritisTest">
+        <methods>
+          <include name="verifyNaturalRemediesForArthritisPainRelief"/>
+          <include name="endReport"/>
+          <include name="verifyBuyNow"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelFoodsToAvoidforArthritisTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelElbowTest">
+        <methods>
+          <include name="verifyBuyNow"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelElbowTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelIsArthritisHereditaryTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyHyperLinkRelieveThePainOfArthritis"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelIsArthritisHereditaryTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelHowToRelieveArthritisPainTest">
+        <methods>
+          <include name="verifyArticle1"/>
+          <include name="verifyArticle2"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyBuyNow"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelHowToRelieveArthritisPainTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelExercisesTest">
+        <methods>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="verifyBuyNow"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelExercisesTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelFirstArthritisFriendlySiteTest">
+        <methods>
+          <include name="verifyHyperLinkHowVoltarenWorks"/>
+          <include name="verifyRelatedArticleReadMoreOne"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyRelatedArticleReadMoreTwo"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelFirstArthritisFriendlySiteTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelMorningRoutineArthritisReliefTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="verifyHyperLinkOsteoarthritis"/>
+          <include name="launchingTheBrowser"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelMorningRoutineArthritisReliefTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelFamilyTest">
+        <methods>
+          <include name="verifyRelatedArticleReadMoreOne"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="verifyRelatedArticleReadMoreTwo"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelFamilyTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelStressTest">
+        <methods>
+          <include name="verifyHyperLinkArthritis"/>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelStressTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelNaturalRemediesTest">
+        <methods>
+          <include name="verifyBuyNow"/>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="verifyHowToRelieveArthritisPain"/>
+          <include name="verifySymptomsOfArthritisPain"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelNaturalRemediesTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelAbWorkoutsFromHomeTest">
+        <methods>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="verifyKneeExercises"/>
+          <include name="verifyManageYourArthritisSymptoms"/>
+          <include name="startReport"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifyArthritisSymptoms"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelAbWorkoutsFromHomeTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelWhatIsLidocaineTest">
+        <methods>
+          <include name="launchingTheUrl"/>
+          <include name="verifyOverTheCounterDiclofenacGel"/>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelWhatIsLidocaineTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelHomeTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="verifyRelatedArticleReadMoreOne"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="verifyRelatedArticleReadMoreTwo"/>
+          <include name="launchingTheUrl"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelHomeTest -->
+      <class name="com.qa.voltarengel.test.VoltarenAloneTest">
+        <methods>
+          <include name="launchingTheBrowser"/>
+          <include name="endReport"/>
+          <include name="verifyRelatedArticleReadMoreTwo"/>
+          <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="verifyRelatedArticleReadMoreOne"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarenAloneTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelUseYourHeadToNavigateWebsitesTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="verifyHyperLinkTools"/>
+          <include name="verifyRelatedArticleReadMoreTwo"/>
+          <include name="launchingTheUrl"/>
+          <include name="verifyRelatedArticleReadMoreOne"/>
+          <include name="verifyBuyNow"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelUseYourHeadToNavigateWebsitesTest -->
+      <class name="com.qa.voltarengel.test.VoltarengelCaregiverVsCaretakerTest">
+        <methods>
+          <include name="launchingTheUrl"/>
+          <include name="endReport"/>
+          <include name="launchingTheBrowser"/>
+          <include name="startReport"/>
+          <include name="verifyArticle2"/>
+        </methods>
+      </class> <!-- com.qa.voltarengel.test.VoltarengelCaregiverVsCaretakerTest -->
+    </classes>
+  </test> <!-- Voltarengel Automation Test(failed) -->
+</suite> <!-- Failed suite [Voltarengel_Automation_Test] -->

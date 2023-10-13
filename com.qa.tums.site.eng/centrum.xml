@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Centrum.test">
+<listeners>
+		<listener class-name="com.qa.tums.eng.util.Transformer" />
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+  <test  name="Centrum Automation Test">
+    <classes>
+      <class name="com.qa.centrum.eng.test.CentrumSampleAdultGummyRestRejuvenateTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleTipsForAMoreBalancedDietTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminComparisonTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleBestVitaminForKidsTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleKetoVitaminTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleMinisAdults50PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleQuizTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminForWomenTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumFooterPage"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleDuringPregnancyTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumLearnPOMTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleMultiOmega3Women50Test"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleAllArticlesTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleSilverMen50PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleThiaminTest"/>
+      <class name="com.qa.centrum.eng.test.CantrumSampleOmegaSupplementsTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminPacksWomen40PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleMultiOmega3Men50Test"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleSpecialistHeartMultivitaminTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleSourceOfZincTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleMultigummiesWomenTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleSupplemetnsAndMultivitaminTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleBiotinForMenTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleAdultFocusClarityTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleFaqsTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminPacksMen20PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminPacksWomen60PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleSupportBrainHealth"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleMelatoninTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleIronForWomenTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminB6Test"/>
+      <class name="com.qa.centrum.eng.test.CentrumProductPage"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleAvoidBoredomTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleGummyVitaminTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleHealthyAgingTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminPacksMen30PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleWorkFromHomeTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSamplePaleoVitaminTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleSilverWomen50PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleAboutPage"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminPacksWomen50PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleSeleniumTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleDietMayBeMissingTeat"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleMultivitaminsForKidsTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleDebunkingVitaminTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleBestVitaminForWomenTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleCooperTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleFooterPage"/>
+      <class name="com.qa.centrum.eng.test.CantrumSampleMakeCoffeeTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleFolicAcidTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminDBenefitsTest"/>
+      <class name="com.qa.centrum.eng.test.CenryumSampleMultigummiesMenTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminPacksMen40PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleAdultEnergyVitalityTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleIodineTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleFoodMoodConnectionTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleProductComparisonPage"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminCBenefitTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleDifferentDietTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleMinisWomen50PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumHomePageTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleHealthyHomemadeTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleChromiumTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleNaturalSourceOfZincTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleSpecialistEnergyMultivitaminTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminForMenTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminPacksMen50PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleMultigummiesMen50PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminATest"/>
+      <class name="com.qa.centrum.eng.test.CentrumCompareProduct"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleVitaminPacksMen60PlusTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleImmuneSupportMenTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumAboutPage"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleCouponsTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleLearnVitaminsImportantTest"/>
+      <class name="com.qa.centrum.eng.test.CentrumSampleHomepageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

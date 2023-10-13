@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Voltarengel_Automation_Test">
+	<listeners>
+		<listener class-name="com.qa.tums.eng.util.Transformer" />
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+	<test name="Voltarengel Automation Test">
+		<classes>
+      <class name="com.qa.voltarengel.test.VoltarengelManagingArthritisTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelStressTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelExercisesTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelIsArthritisHereditaryTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelJointPainMedicineTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelHowtoGetFitAtHomeTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelAbWorkoutsFromHomeTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelExercisesForArthritisTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelWhatIsLidocaineTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelCaregiverVsCaretakerTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelHandTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelHomeTest"/>
+      <class name="com.qa.voltarengel.test.VoltarenWhatIsCaregiverRoleStrainTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelHowToRelieveArthritisPainTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelHowToRelieveJointPainTest"/>
+      <class name="com.qa.voltarengel.test.VoltarenWorkTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelKneeTest"/>
+      <class name="com.qa.voltarengel.test.VoltarenAloneTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelUseYourHeadToNavigateWebsitesTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelMorningRoutineArthritisReliefTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelAnkleTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelElbowTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelKneeBracesForOsteoarthritisTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelHowToRelieveWristPainTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelFoodsToAvoidforArthritisTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelNaturalRemediesTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelFootTest"/>
+      <class name="com.qa.voltarengel.test.VoltarenSocialSettingsTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelFamilyTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelWristTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelHowToPreventArthritisTest"/>
+      <class name="com.qa.voltarengel.test.VoltarengelFirstArthritisFriendlySiteTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

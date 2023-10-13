@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Caltrate_Test_Yogita">
+<listeners>
+		<listener class-name="com.qa.tums.eng.util.Transformer" />
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+  <test name="Caltrate Automation Test">
+    <classes>
+      <class name="com.qa.caltrate.eng.test.CaltratecalciumsupplementproductsMineralMinisTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateContactUsTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateHeaderTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateHealthCareProfessionalsTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateFooterTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateAlmondboostcalciumTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateBenefitsVitaminD3Test"/>
+      <class name="com.qa.caltrate.eng.test.Caltratecalciumsupplementproducts600d3softchewTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateConversionunitTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateSitemapTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltratesummerstrongshakeTest"/>
+      <class name="com.qa.caltrate.eng.test.Caltratecalciumsupplementproducts600d3Test"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateBananamoreCalciumTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltratecalciumcarbonatecitrateTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateyourbonesbeyondTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateVitaminDsupportingBoneTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateCalciumsupplementproductsTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateOestoporosisMedicineEnoughTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltratequalityTest"/>
+      <class name="com.qa.caltrate.eng.test.CaltrateWhychoosecaltrateTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

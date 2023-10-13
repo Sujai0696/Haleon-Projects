@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sensodyne_Test_Sujai">
+	<listeners>
+		<listener class-name="com.qa.tums.eng.util.Transformer" />
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+  <test name="Sensodyne Automation Test">
+    <classes>
+      <class name="com.qa.sensodyne.us.test.SensodyneShouldYouRinseAfterBrushingTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneBrushOrFlossFirstTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneFreshMintToothpasteTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneManagingSensitiveTeethTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSymptomsOfSensitiveTeethTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneDeepCleanToothpasteTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneTrueWhiteMintToothpasteTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneWhiteningSensitiveTeethTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneRepairProtectToothpasteTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneWhatIsAFillingTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneRecognizingSensitiveTeethTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneTipsHealthyGumTeethTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneTrueWhiteExtraFreshTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneIsItPossibleToBrushTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneToothPainCausesTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneImproveGumHealthTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneCompleteProtectionToothpasteTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSensodyneRepairProtectWhietningToothpasteTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneFallTreatsCausingToothSensitivityTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneHomepageTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSensitivityToHotTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneExtraWhiteningToothpasteTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneGumHealthTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneOralHealthTipsAndTricksTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneUnusualNewYearResolutionsTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneWhyTeethHurtBitingTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneBleedingGumsAndSensitivityTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneScienceOfSensodyneTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneCrownToothPainTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneFallSoupRecipesTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneRepairProtectExtraFreshToothpasteTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneCanYouBrushTeethTooHardTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneMyTeethHurtPainRemediesTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneWhyTeethHurtColdOutsideTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneCompleteProtectionExtraFreshTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneFullProtectionToothpasteTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneGingitivisTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSensitivityToColdTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneHowLongShouldYouBrushYourTeethTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneWhatCanYouDoForSensitiveTeethTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneCausesOfSensitiveTeethTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneUnderstandingToothSensitivityTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneSensodyeRapidReleifTest"/>
+      <class name="com.qa.sensodyne.us.test.SensodyneWhatIsSlsToothpasteTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

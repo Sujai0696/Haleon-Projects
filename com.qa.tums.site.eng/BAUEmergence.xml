@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BAU Emergence-C xPath">
+<listeners>
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+  <test  name="BAU Emergence-C presence of xpath">
+    <classes>
+      <class name="com.qa.bens.checklist.test.BAUEmergenceTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

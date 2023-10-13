@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Biotene_Test">
+	<listeners>
+		<listener class-name="com.qa.tums.eng.util.Transformer" />
+		<listener class-name="com.qa.tums.eng.util.ListenerClass" />
+	</listeners>
+  <test name="Biotene Automation Test">
+    <classes>
+      <class name="com.qa.biotene.test.BioteneDryMouthReliefTest"/>
+      <class name="com.qa.biotene.test.BioteneAsthmaTest"/>
+      <class name="com.qa.biotene.test.BioteneUnderstandingDryMouthTest"/>
+      <class name="com.qa.biotene.test.biotenefoodtohelpdrymouthTest"/>
+      <class name="com.qa.biotene.test.bioteneHeaderTest"/>
+      <class name="com.qa.biotene.test.BioteneNaturalRemediesDryMouthTest"/>
+      <class name="com.qa.biotene.test.biotenelivingwithdrymouthQuizTest"/>
+      <class name="com.qa.biotene.test.BioteneLozengesText"/>
+      <class name="com.qa.biotene.test.BioteneMouthwashTest"/>
+      <class name="com.qa.biotene.test.BioteneTravellingDryMouthReliefTest"/>
+      <class name="com.qa.biotene.test.biotenerelievedrymouthsymptomsTest"/>
+      <class name="com.qa.biotene.test.biotenedrinkingwaterdrymouthTest"/>
+      <class name="com.qa.biotene.test.BioteneRecognizingDryMouthTest"/>
+      <class name="com.qa.biotene.test.bioteneSitemapTest"/>
+      <class name="com.qa.biotene.test.BioteneDiabetesMellitusTest"/>
+      <class name="com.qa.biotene.test.BioteneDryMouthDiagnosisTest"/>
+      <class name="com.qa.biotene.test.biotenedoihavedrymouthTest"/>
+      <class name="com.qa.biotene.test.biotenedrymouthnighttimeTest"/>
+      <class name="com.qa.biotene.test.BioteneDryMouthCausesMedicationsTest"/>
+      <class name="com.qa.biotene.test.biotenelivingwithdrymouthcaregiversTest"/>
+      <class name="com.qa.biotene.test.BioteneShopNowTest"/>
+      <class name="com.qa.biotene.test.biotenedrymouthrelieftipsTest"/>
+      <class name="com.qa.biotene.test.biotenewhatisdrymouthTest"/>
+      <class name="com.qa.biotene.test.biotenealldaysymptomreliefTest"/>
+      <class name="com.qa.biotene.test.bioteneFooterTest"/>
+      <class name="com.qa.biotene.test.BioteneFreshMintToothPasteTest"/>
+      <class name="com.qa.biotene.test.BioteneGentleToothpasteTest"/>
+      <class name="com.qa.biotene.test.BioteneSjogrensSyndromeTest"/>
+      <class name="com.qa.biotene.test.bioteneFSAorHSApurchaseTest"/>
+      <class name="com.qa.biotene.test.BiotenedryMouthTipsBeachDayTest"/>
+      <class name="com.qa.biotene.test.bioteneFreshenbadbreatheTest"/>
+      <class name="com.qa.biotene.test.biotenegentleoralrinseTest"/>
+      <class name="com.qa.biotene.test.biotenemoisturisingmouthsprayTest"/>
+      <class name="com.qa.biotene.test.biotenedrymouthlabourdayTest"/>
+      <class name="com.qa.biotene.test.BioteneParkinsonsDiseaseTest"/>
+      <class name="com.qa.biotene.test.BioteneSaveNowTest"/>
+      <class name="com.qa.biotene.test.BioteneCottonMouthCausesTest"/>
+      <class name="com.qa.biotene.test.biotenemoisturizinggelTest"/>
+      <class name="com.qa.biotene.test.bioteneContactusTest"/>
+      <class name="com.qa.biotene.test.BioteneHomepageTest"/>
+      <class name="com.qa.biotene.test.BioteneDryMouthSalivaTest"/>
+      <class name="com.qa.biotene.test.BioteneMultiMedicationsTest"/>
+      <class name="com.qa.biotene.test.bioteneHowtousemouthwashTest"/>
+      <class name="com.qa.biotene.test.BioteneDiabetesTest"/>
+      <class name="com.qa.biotene.test.MedicationsThatCauseXerostomiaTest"/>
+      <class name="com.qa.biotene.test.biotenedrymouthFAQTest"/>
+      <class name="com.qa.biotene.test.biotenefeelingdrymouthnightTest"/>
+      <class name="com.qa.biotene.test.BioteneDryMouthProductsTest"/>
+      <class name="com.qa.biotene.test.biotenedrymouthtipsTest"/>
+      <class name="com.qa.biotene.test.biotenelivingdrymouthTest"/>
+      <class name="com.qa.biotene.test.biotenedrymouththroatTest"/>
+      <class name="com.qa.biotene.test.BioteneDryMouthSymptomsTest"/>
+      <class name="com.qa.biotene.test.BioteneSclerodermaTest"/>
+      <class name="com.qa.biotene.test.BioteneCancerTest"/>
+      <class name="com.qa.biotene.test.biotenedrymouthHealthImpactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

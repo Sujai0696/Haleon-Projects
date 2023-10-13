@@ -1,0 +1,539 @@
+<html>
+<head>
+<title>TestNG:  Youtube Link Verification</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Youtube Link Verification</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>92/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 11 17:17:10 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>300 seconds (300260 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensitive-teeth.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/promine-agiz-bakim-suyu.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/mine-hakk%C4%B1nda/di%C5%9F-minesi-nedir.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-onar%C4%B1m-koruma-ekstra-ferah-di%C5%9F-macunu.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/hassas-beyazlat%C4%B1c%C4%B1-di%C5%9F-macunu.html</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/neden-promine/nas%C4%B1l-f%C4%B1r%C3%A7alan%C4%B1r.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-onar%C4%B1m-koruma-beyazlatma-di%C5%9F-macunu.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/pronamel-intensive-enamel-repair-whitening.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/sensodyne-h%C4%B1zl%C4%B1-rahatlama.html</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-naneli-di%C5%9F-macunu.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/strong-bright-extra-fresh-whitening-toothpaste.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/neden-promine.html</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/eri%C5%9Filebilirlik.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-di%C5%9Feti-bak%C4%B1m%C4%B1-di%C5%9Fmacunu.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/hassasiyet-diseti-rahatlama-dis-macunu.html</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/di%C5%9F-hassasiyetini-anlamak/y%C3%B6netmek-hassas-di%C5%9F/s%C4%B1ca%C4%9Fa-kar%C5%9F%C4%B1-hassasiyet.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/hassasiyet-di%C5%9F-eti-beyazlatma-di%C5%9F-macunu.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/asit-erozyonu-hakk%C4%B1nda/%C3%A7%C3%BCr%C3%BCkler-ve-asit-erozyonu-aras%C4%B1ndaki-farklar.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/onar%C4%B1m-koruma-di%C5%9F-f%C4%B1r%C3%A7as%C4%B1.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/gentle-floss.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/sensodyne-hakk%C4%B1nda/sensodyne-bilimi/h%C4%B1zl%C4%B1-rahatlama.html</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-h%C4%B1zl%C4%B1-rahatlama.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-cool-mint-ag%C4%B1z-bak%C4%B1m-suyu.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/h%C4%B1zl%C4%B1-rahatlama-di%C5%9F-f%C4%B1r%C3%A7as%C4%B1.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/sensodyne-hakk%C4%B1nda/sensodyne-bilimi.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/di%C5%9F-hassasiyetini-anlamak/hassas-di%C5%9Flerin-tedavisi.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/di%C5%9F-hassasiyetini-anlamak/beyazlat%C4%B1c%C4%B1-hassas-di%C5%9F.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/asit-erozyonu-hakk%C4%B1nda/asit-erozyonunun-etkileri.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/hassas-di%C5%9F-di%C5%9F-eti-di%C5%9F-f%C4%B1r%C3%A7as%C4%B1.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler.html</td>
+<td></td>
+<td>5</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/%C3%A7ocuklar-i%C3%A7in-promine.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/di%C5%9F-hassasiyetini-anlamak/y%C3%B6netmek-hassas-di%C5%9F/so%C4%9Fu%C4%9Fa-kar%C5%9F%C4%B1-hassasiyet.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/tam-koruma-beyazlat%C4%B1c%C4%B1.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-h%C4%B1zl%C4%B1-rahatlama-beyazlatma.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/nourish-dogal-ferahlik.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/nourish.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/promine-mine-onar%C4%B1m-ekstra-ferah.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/sensodyne-hakk%C4%B1nda/bile%C5%9Fenler.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/product-results/beyazlat%C4%B1c%C4%B1-di%C5%9F-%C3%BCr%C3%BCnleri.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-ekstra-beyazlat%C4%B1c%C4%B1-di%C5%9F-macunu.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/product-results/onar%C4%B1ma-duyarl%C4%B1-di%C5%9F-%C3%BCr%C3%BCnleri.html</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/hassas-di%C5%9F-di%C5%9F-f%C4%B1r%C3%A7alar%C4%B1.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/hassasiyet-di%C5%9F-eti-di%C5%9F-macunu.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/tam-koruma-di%C5%9F-f%C4%B1r%C3%A7as%C4%B1.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/%C3%A7oklu-etki-di%C5%9F-macunu.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/product-results/h%C4%B1zl%C4%B1-hassas-di%C5%9F-rahatlama-%C3%BCr%C3%BCnleri.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/di%C5%9F-hassasiyetini-anlamak/tan%C4%B1ma-hassas-di%C5%9F.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/asit-erozyonu-hakk%C4%B1nda/asit-erozyonu-nas%C4%B1l-%C3%B6nlenir.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/ileti%C5%9Fim.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/product-results/taze-nefes-%C3%BCr%C3%BCnleri.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/di%C5%9F-hassasiyetini-anlamak/di%C5%9F-hassasiyeti-nedenleri.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/di%C5%9F-hassasiyetini-anlamak.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/neden-promine/arkas%C4%B1ndaki-vilim-promine-onar%C4%B1m.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-derin-temizlik-di%C5%9F-macunu.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/surdurulebilirlik.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/product-results/di%C5%9F-minesi-bak%C4%B1m-%C3%BCr%C3%BCnleri.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/asit-erozyonu-hakk%C4%B1nda/asit-erozyonunun-nedenleri.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-cok-yonlu-koruma-di%C5%9F-macunu.html</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/mine-hakk%C4%B1nda.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/kabul-edilebilir-kullan%C4%B1m-politikas%C4%B1.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/derin-temizlik-di%C5%9F-f%C4%B1r%C3%A7as%C4%B1.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/di%C5%9F-hassasiyetini-anlamak/hassas-di%C5%9F-belirtileri.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-cok-yonlu-koruma-di%C5%9F-f%C4%B1r%C3%A7as%C4%B1.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/mine-hakk%C4%B1nda/di%C5%9F-minesi-bak%C4%B1m%C4%B1.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/yumu%C5%9Fak-k%C4%B1ll%C4%B1-di%C5%9F-f%C4%B1r%C3%A7as%C4%B1.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-tam-koruma-di%C5%9Fmacunu.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-ferah-nefes.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/hassas-di%C5%9F-di%C5%9F-f%C4%B1r%C3%A7alar%C4%B1/nas%C4%B1l-f%C4%B1r%C3%A7alama-di%C5%9F.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/sensodyne-h%C4%B1zl%C4%B1-rahatlama/dis-hassasiyeti-gercekten-nas%C4%B1l-hissettiriyor.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/hassas-di%C5%9Feti-di%C5%9F-f%C4%B1r%C3%A7as%C4%B1.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensitive-teeth-gums.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/product-results/%C3%A7oklu-faydal%C4%B1-%C3%BCr%C3%BCnler.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/dogal-beyazlik.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/nourish-rahatlatici-etki.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/web-site-haritas%C4%B1.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/neden-promine/promine-bilimi.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/g%C3%BCnl%C3%BCk-koruma-di%C5%9F-macunu.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/nourish-saglikli-beyazlik.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/product-results/toothbrushes-for-both-sensitive-and-deep-cleaning.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/sensodyne-hakk%C4%B1nda.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/sensodyne-h%C4%B1zl%C4%B1-rahatlama/the-science-behind-rapid-relief.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/s%C4%B1k%C3%A7a-sorulan-sorular.html</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/asit-erozyonu-hakk%C4%B1nda.html</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/promine/neden-promine/%C3%A7ocuklar-i%C3%A7in-promine.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/sensodyne-onar%C4%B1m-koruma-di%C5%9F-macunu.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/nereden-al%C4%B1n%C4%B1r.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/en-so%C4%9Fuk-%C5%9Fehir.html</td>
+<td></td>
+<td>5</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/%C3%BCr%C3%BCnler/product-results/di%C5%9Feti-koruma-%C3%BCr%C3%BCnleri.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/sensodyne-h%C4%B1zl%C4%B1-rahatlama/perde-arkas%C4%B1na-gidin.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.FindYoutubeLinksTest.verifyExpiredCode()'><b>verifyExpiredCode</b><br>Test class: com.qa.bens.checklist.test.FindYoutubeLinksTest<br>Parameters: https://www.sensodyne.com/tr-tr/di%C5%9F-hassasiyetini-anlamak/y%C3%B6netmek-hassas-di%C5%9F.html</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.FindYoutubeLinksTest@173ed316</td></tr>
+</table><p>
+</body>
+</html>

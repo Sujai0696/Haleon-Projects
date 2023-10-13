@@ -1,0 +1,434 @@
+<html>
+<head>
+<title>TestNG:  PriceSpider Verification</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PriceSpider Verification</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>71/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 27 11:36:34 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>205 seconds (205050 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-toothpaste/corsodyl-original-toothpaste/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-mouthwash/complete-protection-mouthwash-mild-mint/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/how-to-keep-gums-healthy/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/what-causes-tooth-loss/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/caring-for-your-gums/how-to-help-stop-bleeding-when-brushing/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/where-to-buy/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-intensive-treatment/intensive-treatment-mouthwash-original/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/which-mouthwash-is-right-for-me/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/faq/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/gum-problems-pregnancy/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-mouthwash/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/bleeding-gums/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/healthy-gums/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/caring-for-your-gums/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-toothpaste/complete-protection-whitening/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/can-receding-gums-grow-back/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/life-impact-gum-disease/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/caring-for-your-gums/corsodyl-after-dental-surgery/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-toothpaste/complete-protection-extra-fresh/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/what-is-periodontal-disease/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-toothpaste/whitening/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/gingivitis/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-toothbrush/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/halitosis/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/ways-to-treat-bleeding-gums/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-mouthwash/complete-protection-mouthwash-extra-fresh/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-intensive-treatment/intensive-treatment-mouthwash-mint/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/caring-for-your-gums/role-of-dental-check-ups/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/gum-disease-fact-or-fiction/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/what-causes-gum-inflammation/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-toothbrush/complete-protection-toothbrush/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/gingivitis-vs-periodontitis/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/how-to-treat-gum-disease/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/about-corsodyl/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-health-test/</td>
+<td></td>
+<td>5</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-toothpaste/gum-breath-sensitivity/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/caring-for-your-gums/discover-the-8-benefits-of-complete-protection/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/tips-to-tackle-halitosis/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-intensive-treatment/dental-gel/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/braces-retainers-and-bleeding-gums/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/gingivitis-signs-and-symptoms/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/journey-of-gum-disease/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-toothpaste/gum-sensitivity-breath-whitening/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/healthy-life-healthy-gums/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/caring-for-your-gums/how-dental-check-up-can-spot-gum-disease/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/contact-us/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-intensive-treatment/intensive-treatment-mouthwash-fresh-mint/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-mouthwash/daily-gum-care-mouthwash-cool-mint/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/how-to-keep-gums-healthy-teeth-strong-every-day/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-toothpaste/parodontax-ultra-clean-toothpaste/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-toothpaste/gum-sensitivity-breath/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/all-about-mouth-ulcers/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/accessibility/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/what-causes-gum-disease/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/acceptable-use-policy/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/caring-for-your-gums/what-is-a-scale-and-polish/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/receding-gums/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/what-is-periodontitis/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-toothpaste/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-intensive-treatment/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/how-smoking-puts-you-at-risk-of-gum-disease/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/caring-for-your-gums/why-do-i-need-to-floss/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/causes-of-halitosis/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/gum-disease/swollen-gums/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/products/corsodyl-mouthwash/daily-gum-care-mouthwash-fresh-mint/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/sitemap/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.AddingPriceSpiderTest.verifyPriceSpider()'><b>verifyPriceSpider</b><br>Test class: com.qa.bens.checklist.test.AddingPriceSpiderTest<br>Parameters: https://www.corsodyl.co.uk/advice/what-is-oral-thrush/</td>
+<td></td>
+<td>2</td>
+<td>com.qa.bens.checklist.test.AddingPriceSpiderTest@173ed316</td></tr>
+</table><p>
+</body>
+</html>
