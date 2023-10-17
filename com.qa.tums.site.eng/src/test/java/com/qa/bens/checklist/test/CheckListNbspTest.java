@@ -26,9 +26,9 @@ public class CheckListNbspTest extends BaseClass{
 	}
 
 //dataProvider = "Caltrate",dataProviderClass = DataProviderCode.class
-	@Test()
-	private void verifyNBSP() throws Exception {
-		nbsp.verifyNbsp();
+	@Test(dataProvider = "Caltrate",dataProviderClass = DataProviderCode.class)
+	private void verifyWebArchiveOrg(String path) throws Exception {
+		nbsp.verifyNbsp(path);
 		System.out.println("---->**************************************************<----");
 		
 	}

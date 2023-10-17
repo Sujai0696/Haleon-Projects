@@ -15,14 +15,14 @@ public class CheckListNbspPage extends BaseClass{
 	}
 
 
-	public void verifyNbsp() throws Exception{
+	public void verifyNbsp(String path) throws Exception{
 		try {
-			launchURL("https://haleonstaging2:Humanity23@panadol-com.preprod-cf65.ch.adobecqms.net/en-me-v4/");
+			launchURL(path);
 			implicitWait();
-			pageLoad();
+			Thread.sleep(2000);
 			String currentUrl = getCurrentUrl();
 			System.out.println(currentUrl);
-//			log.info(currentUrl);
+			log.info(currentUrl);
 			implicitWait();
 			
 			
@@ -33,23 +33,23 @@ public class CheckListNbspPage extends BaseClass{
 			Screen screenOne = new Screen();
 			Pattern patternOne = new Pattern("C:\\Users\\sujsekar\\Desktop\\repo\\com.qa.tums.site.eng\\tumsLogo\\SearchField.png");
 			screenOne.wait(patternOne,5);    
-			screenOne.type(patternOne,"gsk");
+			screenOne.type(patternOne,"Flonase.com");
 			pageLoad();
 		
 			Screen screenTwo = new Screen();
-			Pattern patternTwo = new Pattern("C:\\Users\\sujsekar\\Desktop\\repo\\com.qa.tums.site.eng\\tumsLogo\\StyleTagImg.png");
+			Pattern patternTwo = new Pattern("C:\\Users\\sujsekar\\git\\Haleon-Projects\\com.qa.tums.site.eng\\tumsLogo\\ImgTryOne.png");
 			String textOne = screenTwo.find(patternTwo).text();
 			System.out.println(textOne);
 			pageLoad();
 			
-			if (compareTwoTextif("0/0 |", textOne))	{
+			if (compareTwoTextif("0/0", textOne))	{
 				System.out.println("Pass: "+currentUrl);
-//				log.pass("Text is not Presented in the page");
-//				log.pass("Pass: "+currentUrl);
+				log.pass("Text is not Presented in the page");
+				log.pass("Pass: "+currentUrl);
 			}else{
 				System.out.println("Fail: "+currentUrl);
-//				log.fail("Text is presented in the page");
-//				log.fail("Fail: "+currentUrl);
+				log.fail("Text is presented in the page");
+				log.fail("Fail: "+currentUrl);
 			}
 //			pageLoad();
 			ctrlA();

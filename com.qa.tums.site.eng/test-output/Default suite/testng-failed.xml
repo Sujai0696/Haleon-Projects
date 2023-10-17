@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.flonase.test.FlonaseSpringAllergiesCausesSymptomsTreatmentTest">
+      <class name="com.qa.flonase.test.CMXTest">
         <methods>
+          <include name="verifyLoginPage"/>
           <include name="endReport"/>
-          <include name="verifyHyperLinkSeeAllArticles"/>
-          <include name="launchingTheBrowser"/>
-          <include name="startReport"/>
           <include name="launchingTheUrl"/>
+          <include name="startReport"/>
+          <include name="launchingTheBrowser"/>
         </methods>
-      </class> <!-- com.qa.flonase.test.FlonaseSpringAllergiesCausesSymptomsTreatmentTest -->
+      </class> <!-- com.qa.flonase.test.CMXTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

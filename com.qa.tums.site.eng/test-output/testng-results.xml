@@ -1,33 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="16" total="17" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-12T15:29:23 IST" name="Default suite" finished-at="2023-10-12T15:29:43 IST" duration-ms="20048">
+  <suite started-at="2023-10-15T12:11:58 IST" name="web archive Verification_Sujai" finished-at="2023-10-15T12:13:08 IST" duration-ms="70189">
     <groups>
     </groups>
-    <test started-at="2023-10-12T15:29:23 IST" name="Default test" finished-at="2023-10-12T15:29:43 IST" duration-ms="20048">
-      <class name="com.qa.flonase.test.FlonaseSpringAllergiesCausesSymptomsTreatmentTest">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.qa.flonase.test.FlonaseSpringAllergiesCausesSymptomsTreatmentTest@793f29ff]" started-at="2023-10-12T15:29:22 IST" name="startReport" finished-at="2023-10-12T15:29:23 IST" duration-ms="204" status="PASS">
+    <test started-at="2023-10-15T12:11:58 IST" name="web archive Verification for Haleon Active Sites" finished-at="2023-10-15T12:13:08 IST" duration-ms="70189">
+      <class name="com.qa.bens.checklist.test.CheckListNbspTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:11:58 IST" name="startReport" finished-at="2023-10-15T12:11:58 IST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="launchingTheBrowser()[pri:0, instance:com.qa.flonase.test.FlonaseSpringAllergiesCausesSymptomsTreatmentTest@793f29ff]" started-at="2023-10-12T15:29:23 IST" name="launchingTheBrowser" finished-at="2023-10-12T15:29:30 IST" duration-ms="7724" status="PASS">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:11:58 IST" name="launchTheBrowser" finished-at="2023-10-15T12:11:59 IST" duration-ms="1327" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchingTheBrowser -->
-        <test-method is-config="true" signature="launchingTheUrl()[pri:0, instance:com.qa.flonase.test.FlonaseSpringAllergiesCausesSymptomsTreatmentTest@793f29ff]" started-at="2023-10-12T15:29:30 IST" name="launchingTheUrl" finished-at="2023-10-12T15:29:41 IST" duration-ms="10763" status="PASS">
+        </test-method> <!-- launchTheBrowser -->
+        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:11:59 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:12:09 IST" duration-ms="9916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://www.4wayspray.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchingTheUrl -->
-        <test-method signature="cookieButton()[pri:0, instance:com.qa.flonase.test.FlonaseSpringAllergiesCausesSymptomsTreatmentTest@793f29ff]" started-at="2023-10-12T15:29:41 IST" name="cookieButton" finished-at="2023-10-12T15:29:43 IST" duration-ms="1538" status="PASS">
+        </test-method> <!-- verifyWebArchiveOrg -->
+        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:12:09 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:12:19 IST" duration-ms="9652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://www.abreva.ca]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cookieButton -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.qa.flonase.test.FlonaseSpringAllergiesCausesSymptomsTreatmentTest@793f29ff]" started-at="2023-10-12T15:29:43 IST" name="endReport" finished-at="2023-10-12T15:29:43 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifyWebArchiveOrg -->
+        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:12:19 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:12:29 IST" duration-ms="10258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://www.abreva.ca/fr_CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebArchiveOrg -->
+        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:12:29 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:12:39 IST" duration-ms="9696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://www.flonase.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebArchiveOrg -->
+        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:12:39 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:12:48 IST" duration-ms="9512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://www.activir.jp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebArchiveOrg -->
+        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:12:48 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:12:58 IST" duration-ms="9802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://www.abreva.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebArchiveOrg -->
+        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:12:58 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:13:08 IST" duration-ms="9912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://www.advil.net.au]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebArchiveOrg -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:13:08 IST" name="endReport" finished-at="2023-10-15T12:13:08 IST" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.qa.flonase.test.FlonaseSpringAllergiesCausesSymptomsTreatmentTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.qa.bens.checklist.test.CheckListNbspTest -->
+    </test> <!-- web archive Verification for Haleon Active Sites -->
+  </suite> <!-- web archive Verification_Sujai -->
 </testng-results>

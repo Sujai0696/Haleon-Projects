@@ -810,7 +810,7 @@ public class BaseClass {
 
 	//	until(ExpectedConditions.visibilityOf(element));
 	public static void visibilityOf( WebElement element) {
-		WebDriverWait w = new WebDriverWait(driver,20);
+		WebDriverWait w = new WebDriverWait(driver,30);
 		w.until(ExpectedConditions.visibilityOf(element));
 	}
 
