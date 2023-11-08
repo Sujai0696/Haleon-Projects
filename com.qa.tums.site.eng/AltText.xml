@@ -6,7 +6,7 @@
 	</listeners>
 	<test name="Img Tag Verification">
 		<classes>
-      <class name="com.qa.bens.checklist.test.CheckListAltTextTest"/>
-    </classes>
-  </test> <!-- Test -->
+			<class name="com.qa.bens.checklist.test.CheckListAltTextTest" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -31,28 +31,28 @@ public class CheckListNbspPage extends BaseClass{
 			ctrlFind();
 			pageLoad();
 			Screen screenOne = new Screen();
-			Pattern patternOne = new Pattern("C:\\Users\\sujsekar\\Desktop\\repo\\com.qa.tums.site.eng\\tumsLogo\\SearchField.png");
+			Pattern patternOne = new Pattern("C:\\Users\\sujsekar\\git\\Haleon-Projects\\com.qa.tums.site.eng\\tumsLogo\\SearchField.png");
 			screenOne.wait(patternOne,5);    
-			screenOne.type(patternOne,"Flonase.com");
+			screenOne.type(patternOne,"OPT-PKPMGMZ");
 			pageLoad();
 		
 			Screen screenTwo = new Screen();
-			Pattern patternTwo = new Pattern("C:\\Users\\sujsekar\\git\\Haleon-Projects\\com.qa.tums.site.eng\\tumsLogo\\ImgTryOne.png");
+			Pattern patternTwo = new Pattern("C:\\Users\\sujsekar\\git\\Haleon-Projects\\com.qa.tums.site.eng\\tumsLogo\\StyleTagImg.png");
 			String textOne = screenTwo.find(patternTwo).text();
 			System.out.println(textOne);
 			pageLoad();
 			
-			if (compareTwoTextif("0/0", textOne))	{
+			if (compareTwoTextif("0/0 |", textOne))	{
 				System.out.println("Pass: "+currentUrl);
-				log.pass("Text is not Presented in the page");
+				log.pass("Container ID is not Presented in the page");
 				log.pass("Pass: "+currentUrl);
 			}else{
 				System.out.println("Fail: "+currentUrl);
-				log.fail("Text is presented in the page");
+				log.fail("Container ID is presented in the page");
 				log.fail("Fail: "+currentUrl);
 			}
-//			pageLoad();
 			ctrlA();
+			pageLoad();
 			backspace();
 		} catch (Exception e) {
 			e.printStackTrace();

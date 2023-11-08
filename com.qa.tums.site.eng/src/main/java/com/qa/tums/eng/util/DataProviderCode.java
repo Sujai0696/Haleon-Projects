@@ -25,7 +25,7 @@ public class DataProviderCode extends BaseClass{
 		
 		Workbook workbook = Workbook.getWorkbook(fileInput);
 		
-		Sheet sheet = workbook.getSheet(loadConfig("checkListConfig.properties").getProperty("SheetNameDummyCheck"));
+		Sheet sheet = workbook.getSheet(loadConfig("checkListConfig.properties").getProperty("SheetNameGB-12152_PreProd"));
 		int rows = sheet.getRows();
 		int columns = sheet.getColumns();
 		String testData[][]= new String [rows-1][columns];

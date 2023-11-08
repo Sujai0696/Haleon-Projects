@@ -44,7 +44,6 @@ public class CMXPage extends BaseClass{
 	
 	
 	public void clickLogin() throws Exception {
-		waitForPageLoadJava();
 		if (txtOhio.isDisplayed()) {
 			scrollDownUsingElement(txtOhio);
 			txtOhio.click();

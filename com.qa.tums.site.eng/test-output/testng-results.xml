@@ -1,102 +1,289 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-15T12:11:58 IST" name="web archive Verification_Sujai" finished-at="2023-10-15T12:13:08 IST" duration-ms="70189">
+  <suite started-at="2023-11-08T19:23:16 IST" name="Container ID Verification" finished-at="2023-11-08T19:29:01 IST" duration-ms="344822">
     <groups>
     </groups>
-    <test started-at="2023-10-15T12:11:58 IST" name="web archive Verification for Haleon Active Sites" finished-at="2023-10-15T12:13:08 IST" duration-ms="70189">
+    <test started-at="2023-11-08T19:23:16 IST" name="Container ID Verification" finished-at="2023-11-08T19:29:01 IST" duration-ms="344822">
       <class name="com.qa.bens.checklist.test.CheckListNbspTest">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:11:58 IST" name="startReport" finished-at="2023-10-15T12:11:58 IST" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:23:16 IST" name="startReport" finished-at="2023-11-08T19:23:16 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:11:58 IST" name="launchTheBrowser" finished-at="2023-10-15T12:11:59 IST" duration-ms="1327" status="PASS">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:23:16 IST" name="launchTheBrowser" finished-at="2023-11-08T19:24:01 IST" duration-ms="44511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
-        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:11:59 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:12:09 IST" duration-ms="9916" status="PASS">
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:24:01 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:24:15 IST" duration-ms="14017" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[view-source:https://www.4wayspray.com]]>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWebArchiveOrg -->
-        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:12:09 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:12:19 IST" duration-ms="9652" status="PASS">
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:24:15 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:24:29 IST" duration-ms="13840" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[view-source:https://www.abreva.ca]]>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/prodotti-neocitran.html]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWebArchiveOrg -->
-        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:12:19 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:12:29 IST" duration-ms="10258" status="PASS">
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:24:29 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:24:41 IST" duration-ms="12775" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[view-source:https://www.abreva.ca/fr_CA]]>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/prodotti-neocitran/neocitran-influenza-raffreddore.html]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWebArchiveOrg -->
-        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:12:29 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:12:39 IST" duration-ms="9696" status="PASS">
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:24:41 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:24:54 IST" duration-ms="12209" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[view-source:https://www.flonase.com/]]>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/prodotti-neocitran/neocitran-raffreddore-sintomi-influenza.html]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWebArchiveOrg -->
-        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:12:39 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:12:48 IST" duration-ms="9512" status="PASS">
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:24:54 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:25:06 IST" duration-ms="11948" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[view-source:https://www.activir.jp]]>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/prodotti-neocitran/neocitran-sciroppo-antitussivo.html]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWebArchiveOrg -->
-        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:12:48 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:12:58 IST" duration-ms="9802" status="PASS">
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:25:06 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:25:17 IST" duration-ms="11835" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[view-source:https://www.abreva.com]]>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/prodotti-neocitran/neocitran-compresse-per-la-tosse.html]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWebArchiveOrg -->
-        <test-method signature="verifyWebArchiveOrg(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:12:58 IST" name="verifyWebArchiveOrg" data-provider="Caltrate" finished-at="2023-10-15T12:13:08 IST" duration-ms="9912" status="PASS">
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:25:17 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:25:29 IST" duration-ms="11909" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[view-source:https://www.advil.net.au]]>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/prodotti-neocitran/antitussivo-bambini-neocitran-gocce.html]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyWebArchiveOrg -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-10-15T12:13:08 IST" name="endReport" finished-at="2023-10-15T12:13:08 IST" duration-ms="295" status="PASS">
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:25:29 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:25:41 IST" duration-ms="11923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/prodotti-neocitran/neocitran-espettorante-sciroppo.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:25:41 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:25:54 IST" duration-ms="12855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/fattori-influenza/differenza-tra-raffreddore-e-influenza.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:25:54 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:26:06 IST" duration-ms="12293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/fattori-influenza/naso-chiuso-e-altri-sintomi.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:26:06 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:26:18 IST" duration-ms="11952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/fattori-influenza/prevenire-raffreddore-e-influenza.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:26:18 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:26:32 IST" duration-ms="13846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/consigli-sulla-salute/buono-a-sapersi.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:26:32 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:26:44 IST" duration-ms="12062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/consigli-sulla-salute/prevenzione-raffreddore-e-influenza.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:26:44 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:26:57 IST" duration-ms="12717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/consigli-sulla-salute/influenza-raffreddore-rimedi-verita-e-miti.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:26:57 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:27:09 IST" duration-ms="12118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/consigli-sulla-salute/cibi-per-rinforzare-sistema-immunitario.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:27:09 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:27:21 IST" duration-ms="11999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/consigli-sulla-salute/virus-del-raffreddore.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:27:21 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:27:34 IST" duration-ms="13370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/consigli-sulla-salute/sintomi-differenza-influenza-raffreddore.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:27:34 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:27:47 IST" duration-ms="12535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/consigli-sulla-salute/antibiotico-e-raffreddore.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:27:47 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:28:01 IST" duration-ms="13825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/consigli-sulla-salute/sport-con-raffreddore-influenza.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:28:01 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:28:13 IST" duration-ms="11930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/consigli-sulla-salute/raffreddore-in-primavera-e-fuori-stagione.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:28:13 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:28:25 IST" duration-ms="12643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/domande-frequenti.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:28:25 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:28:38 IST" duration-ms="12116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/contattaci.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:28:38 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:28:49 IST" duration-ms="11823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/sitemap.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method signature="verifyContainerId(java.lang.String)[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:28:49 IST" name="verifyContainerId" data-provider="Caltrate" finished-at="2023-11-08T19:29:01 IST" duration-ms="11595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[view-source:https://haleonstaging2:Humanity23@neocitran-ch.preprod-cf65.ch.adobecqms.net/it/impressum.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContainerId -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.qa.bens.checklist.test.CheckListNbspTest@74ea2410]" started-at="2023-11-08T19:29:01 IST" name="endReport" finished-at="2023-11-08T19:29:01 IST" duration-ms="347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.qa.bens.checklist.test.CheckListNbspTest -->
-    </test> <!-- web archive Verification for Haleon Active Sites -->
-  </suite> <!-- web archive Verification_Sujai -->
+    </test> <!-- Container ID Verification -->
+  </suite> <!-- Container ID Verification -->
 </testng-results>

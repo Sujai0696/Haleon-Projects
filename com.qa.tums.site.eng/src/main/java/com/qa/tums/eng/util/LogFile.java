@@ -1,9 +1,5 @@
 package com.qa.tums.eng.util;
 
-import java.util.List;
-
-import com.github.dockerjava.api.model.Info;
-
 public class  LogFile extends ExtentManager{
 	
 	

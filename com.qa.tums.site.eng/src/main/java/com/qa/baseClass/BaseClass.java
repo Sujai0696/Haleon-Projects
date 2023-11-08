@@ -775,6 +775,7 @@ public class BaseClass {
 	}
 
 	public static String takeScreenshot(String fileName) {
+		
 		String dateName = new SimpleDateFormat("yyyymmddhhmmss").format(new Date());
 		TakesScreenshot takescreenshot = (TakesScreenshot)driver;
 		File screenshotAs = takescreenshot .getScreenshotAs(OutputType.FILE);
