@@ -2,6 +2,7 @@ package com.qa.bens.checklist.test;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -25,6 +26,19 @@ public class SampleRegularExpressionsTest {
 	   public static void main(String args[]) {
 	       //adding  emails to an array list
 	       List<String> names = new ArrayList<String>();
+	       
+	       Scanner input = new Scanner(System.in);
+	       
+	       for (int i = 0; i < 10; i++) {
+	    	   Pattern pattern = Pattern.compile(regex);
+	    	   System.out.println("Enter the value");
+	    	   String nextLine = input.nextLine();
+	    	   Matcher matcher = pattern.matcher(nextLine);
+	           System.out.println("Email " + nextLine + " is " + (matcher.matches() ? "valid" : "invalid"));
+			
+		}
+	       
+	       
 	       
 	       
 	       
@@ -62,12 +76,12 @@ public class SampleRegularExpressionsTest {
 	       
 	       
 	       //initialize the Pattern object
-	       Pattern pattern = Pattern.compile(regex);
+//	       Pattern pattern = Pattern.compile(regex);
 	       //searching for occurrences of regex
-	       for (String value : names) {
-	           Matcher matcher = pattern.matcher(value);
-	           System.out.println("Email " + value + " is " + (matcher.matches() ? "valid" : "invalid"));
-	       }
+//	       for (String value : names) {
+//	           Matcher matcher = pattern.matcher(value);
+//	           System.out.println("Email " + value + " is " + (matcher.matches() ? "valid" : "invalid"));
+//	       }
 	   }
 
 }

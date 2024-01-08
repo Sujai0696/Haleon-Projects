@@ -20,7 +20,7 @@ public class FontFamilyTest extends BaseClass{
 	
 	@Test
 	private void verifyFontFamily() throws Exception {
-		ff.launchUrl("https://www.odol-med3.de/");
+		ff.launchUrl("https://www.biotene.com/contact-us/");
 //		ff.clickCookieBtn();
 		ff.getAndVerifyFontFamily();
 	}

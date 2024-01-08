@@ -1,0 +1,1504 @@
+<html>
+<head>
+<title>TestNG:  Redirection Verification</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Redirection Verification</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>285/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 07 15:43:58 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>2163 seconds (2163950 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/dents-gencives-sensibles.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-protection-des-gencives/, 113</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/soulagement-rapide.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/rapide-action-extra-fresh/, 38</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/sensodyne-multi-protection.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/multi-protection-menthe/, 31</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/Symptomes-de-la-sensibilite-dentaire/symptomes-sensibilite.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 277</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-attaques-acides.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 284</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/en-compl�ment-du-brossage.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 34</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne?-24h.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 246</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne?ment-du-brossage.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 59</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/dents-gencives-sensibles-menthe-fraiche.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensibilite-et-gencives-menthe-douce/, 100</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosses-a-dents/multi-protection.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/multiprotection/, 118</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/soinanticaries.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 70</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-de-sensodyne/stannous-fluoride.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 201</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/dentifrices/traitement-sensibilite.html?, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensodyne-sensibilite-gencive/, 68</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosses-a-dents/repare-protege.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/multiprotection/, 112</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Ã -propos-des-dents-sensibles/prÃ©venir-la-sensibilitÃ©-dentaire.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 172</td>
+<td></td>
+<td>9</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne.html?ment-du-brossage.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 241</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/le-produit-sensodyne-qui-vous-convient.aspx?gclid=Cj0KEQiAk5zEBRD9lfno2dek0tsBEiQAWVKyuBZHPKX8MlfBobXw9GpEDK0OijTuPuW5C5OlXLCvVgoaArR58P8HAQ, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 247</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�%20-propos-des-dents-sensibles/quelles-sont-les-causes-de-la-sensibilité-dentaire%20.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 178</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-dents-sensibles/quelles-sont-les-causes-de-la-sensibilité-dentaire .aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 206</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/vivre-avec-la-sensibilite-dentaire/vivre-avec-la-sensibilite-dentaire.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 180</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/multi-protection.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/multi-protection-menthe/, 95</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/bains-de-bouche/fraicheur-intense.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/gel-fraicheur-intense/, 125</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 126</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 285</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/sensodyne-rapideaction-extra-fresh.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensibilite-et-gencives-menthe-fraiche/, 81</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/traitement-sensibilité.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-reparation-des-dents-sensibles/, 226</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/?-dentaire.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 224</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/repare-et-protege-original.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 87</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/dentifrices/cure-sensibilite.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensodyne-sensibilite-gencive/, 103</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/bains-de-bouche/menthe-fraiche.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 260</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/antitartre.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-soulagement-rapide-sensibilite-dentaire/, 105</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/footer/traitement-des-donn?es-personnelles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 137</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/sensodyne-mouthwash.aspx?gclid=CJyI-IzwnNICFeQp0wodyvIMsA, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 233</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�-propos-des-dents-sensibles/d�clencheurs-de-la-sensibilit�.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 278</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne.html?/sensodyne-multi-protection.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/multi-protection-menthe/, 54</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/?-propos-des-attaques-acides/quelles-sont-les-causes-des-attaques-acides-.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 188</td>
+<td></td>
+<td>9</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/greenlandupdate.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 97</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Politique-de-confidentialite.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 263</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�-propos-des-dents-sensibles/d�clencheurs-de-la-sensibilit�-dentaire.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 279</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/causes-de-la-sensibilite-dentaire/perte-d-email.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 195</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-dents-sensibles/quelles-sont-les-causes-de-la-sensibilité-dentaire%20.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 283</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÃ‚Â®/dentifrice-sensodyneÃ‚%20rÃƒÂ©pare-protÃƒÂ¨ge.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 9</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/symptomes-de-la-sensibilite-dentaire/symptomes-sensibilite.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 158</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/cookies.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 154</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/sensodyne-soin-anti-caries.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 79</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/sensodyne-rapide-action-blancheur.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/rapide-action-blancheur/, 102</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/dents-gencives-sensibles.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 255</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/pro-email-protection-quotidienne.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensodyne-sensibilite-gencives-email/, 92</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/dentifrice-sensodyne%20rÃ©pare-protÃ¨ge.aspx?sa=X&ved=0CCMQ9QEwAWoVChMIwqiklqr-xgIVyrcUCh1OGQYE, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 49</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/en-complément-du-brossage.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-multi-benefices/, 25</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/causes-de-la-sensibilite-dentaire/causes.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 196</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/brosses-a-dents/precision.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosse-a-dent-soin-gencives/, 257</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Carie.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 162</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/brosse_dents.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/multiprotection/, 163</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne.html?-24h.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 58</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÃ‚Â®/sensodyne-mouthwash.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 8</td>
+<td></td>
+<td>10</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/error.aspx?aspxerrorpath=/à-propos-des-attaques-acides.aspx&hspart=avg&hsimp=yhs-fh_lsonsw, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 144</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/footer/conditions-d’utilisation.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 139</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/brosses-a-dents/pro-email.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 114</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/dentifrice-sensodyne%20r�pare-prot�ge.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 35</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/error.aspx?aspxerrorpath=/produits/produits-sensodyneÃ‚Â®/sensodyne-mouthwash.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 142</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/protection-sensibilit�-24h.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-reparation-des-dents-sensibles/, 238</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-attaques-acides.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 217</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne.html?ment-du-brossage.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 52</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 164</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/?-propos-des-dents-sensibles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 221</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/protection-sensibilit.html?-24h.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-protection-des-gencives/, 43</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/en-complément-du-brossage.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 45</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Ã -propos-des-dents-sensibles/blanchiment-et-sensibilitÃ©-dentaire.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 176</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/?ReturnUrl=/, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 218</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne.html?.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 57</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosses-a-dents/multi-protection1.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/multiprotection/, 117</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne.html?/sensodyne-multi-protection.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-multi-benefices/, 242</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/brosses-a-dents/douceur.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosse-a-dent-soin-gencives/, 258</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/header/contactez-nous.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/contact/, 132</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/rapide-action.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/rapide-action-extra-fresh/, 99</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/dentifrice-sensodyne%20répare-protège.aspx/, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 50</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�-propos-des-dents-sensibles/blanchiment-et-sensibilit�-dentaire.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 281</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/sensodyne-mouthwash.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/gel-fraicheur-intense/, 23</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/bains-de-bouche/pro-email.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensodyne-sensibilite-gencives-email/, 122</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Dentifrices/, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 150</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/bains-de-bouche/menthe-fraiche.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 90</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/footer/conditions-d’utilisation.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 138</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 225</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 262</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosses-a-dents/soininterdentaire1.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensibilite-et-gencives/, 109</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/brosse_dents.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosse-a-dent-soin-gencives/, 274</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/le-produit-sensodyne-qui-vous-convient.aspx?gclid=ckj7w8pklsycfcnktaodxzyawq, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 63</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-dents-sensibles/déclencheurs-de-la-sensibilité-dentaire.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 210</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/dents-gencives-sensibles-blancheur.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensibilite-et-gencives-blancheur/, 84</td>
+<td></td>
+<td>9</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Ã -propos-des-dents-sensibles/le-signe-d'un-problÃ¨me-plus-grave%20.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 173</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/en-compl�ment-du-brossage.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 44</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/header/plan-du-site.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/plan-du-site/, 131</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne?/soulagement-rapide.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-protection-des-gencives/, 244</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÃƒâ€šÃ‚Â®/sensodyne-mouthwash.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 6</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�-propos-des-dents-sensibles/le-signe-d'un-probl�me-plus-grave%20.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 190</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Ã -propos-des-dents-sensibles/dÃ©clencheurs-de-la-sensibilitÃ©-dentaire.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 174</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/anti-caries, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 108</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 128</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/vivre-avec-la-sensibilite-dentaire/soins-quotidiens.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 181</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/soin-controle-plaque.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 75</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-dents-sensibles/prévenir-la-sensibilité-dentaire.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 207</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÂ®/soulagement-rapide.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/rapide-action-extra-fresh/, 11</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�-propos-des-dents-sensibles/d�clencheurs-de-la-sensibilit�-dentaire.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 192</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/traitement-sensibilité.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 37</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÂ®/en-complÃ©ment-du-brossage.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-extra-fresh/, 16</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/traitement-sensibilit�.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-reparation-des-dents-sensibles/, 237</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-dents-sensibles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 213</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÂ®/dentifrice-sensodyne%20rÃ©pare-protÃ¨ge.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 17</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/error.aspx?aspxerrorpath=/default.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 143</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Ã -propos-des-dents-sensibles/quelles-sont-les-causes-de-la-sensibilitÃ©-dentaire%20.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 171</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÂ®/sensodyne-multi-protection.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/multi-protection-menthe/, 12</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Ãƒ%20-propos-des-attaques-acides.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 169</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosses-a-dents/douceur.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosse-a-dent-soin-gencives/, 124</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÂ®/sensodyne-mouthwash.aspx?utm_campai2016-01_GskGp_Branding_SensodyneVolV12016@12115@_France/We=, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 13</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/dentifrice-sensodyne%20répare-protège.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 228</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�-propos-des-dents-sensibles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 199</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/en-compl�ment-du-brossage.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 239</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/truewhite1.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 67</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/blancheur.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-blancheur/, 91</td>
+<td></td>
+<td>9</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/sensodyne-multi-protection.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/multi-protection-menthe/, 21</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/dentifrices/soin-blancheur.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-blancheur/, 250</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/demandez-.html?%20-l%27expert.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 153</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosses-a-dents/sensodyne-sensibilite-et-genvices.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensibilite-et-gencives-menthe-douce/, 83</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/traiter-les-dents-sensibles/comment-choisir-le-meilleur-dentifrice-pour-mes-dents-sensibles.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 186</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-attaques-acides/quelles-sont-les-causes-des-attaques-acides-.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 215</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/soin-blancheur.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/soin-blancheur/, 77</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/footer/traitement-des-donnÃ©es-personnelles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 134</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÃƒâ€šÃ‚Â®/sensodyne-mouthwash.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 7</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/soulagement-rapide.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-protection-des-gencives/, 231</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosses-a-dents/douceur1.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosse-a-dent-soin-gencives/, 119</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/sensodyne-multi-protection.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-multi-benefices/, 232</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/repareetprotegeoriginal.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 85</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/soulagement-rapide.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/rapide-action-blancheur/, 20</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/dentifrices/traitement-sensibilite.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-reparation-des-dents-sensibles/, 248</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/protection-sensibilitÃ©-24h.aspx?sa=X&ved=0CA8Q9QEwAWoVChMI74DTjOHyxgIVy7cUCh0YEgp_, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-protection-des-gencives/, 40</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÃ‚Â®/dentifrice-sensodyneÃ‚%20rÃƒÂ©pare-protÃƒÂ¨ge.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 29</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 127</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/dentifrices/soin-complet.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 249</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/demandez-à-l'expert.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 152</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/symptomes-de-la-sensibilite-dentaire/symptomes.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 187</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/pro-email-blancheur0.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensodyne-sensibilite-gencives-email/, 93</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/sensodyne-action-sensibilite.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-soulagement-rapide-sensibilite-dentaire/, 104</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/sensodyne-ocu-us.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 3</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/bains-de-bouche/menthe-fraiche1.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 123</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/traiter-les-dents-sensibles/traitement.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 185</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/content/cf-consumer-healthcare/oral-sensodyne/fr_FR/home/produits/dentifrices/soin-blancheur.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/soin-blancheur/, 156</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/demandez-Ã -l'expert.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 151</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-dents-sensibles/quelles-sont-les-causes-de-la-sensibilité-dentaire .aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 282</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/causes-de-la-sensibilite-dentaire/recession-gingivale.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 159</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne.html?/brossage-des-dents-sensibles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 56</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/dentifrice-sensodyne�r�pare-prot�ge.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 240</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Ã -propos-des-attaques-acides.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 177</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/bains-de-bouche/fraicheur-intense.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 261</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/dentifrice-sensodyne répare-protège.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 46</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/bains-de-bouche/pro-email1.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensodyne-sensibilite-gencives-email/, 121</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-dents-sensibles/blanchiment-et-sensibilité-dentaire.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 212</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/sensodyne-repare-et-protege-extra-fresh.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensibilite-et-gencives-menthe-fraiche/, 80</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/footer/traitement-des-données-personnelles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 135</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/footer/traitement-des-donn.html?es-personnelles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 136</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/caries.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 160</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Ã -propos-des-dents-sensibles/comprendre-vos-dents.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 175</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/error.aspx?aspxerrorpath=/, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 145</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/sensodyne-stressed-urban.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 198</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/sensodyne-soin-blancheur.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/soin-blancheur/, 71</td>
+<td></td>
+<td>9</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/dentifrices/cure-sensibilite.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-reparation-des-dents-sensibles/, 256</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/traiter-les-dents-sensibles/vous-et-votre-dentiste.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 149</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/?-propos-des-dents-sensibles/comprendre-vos-dents.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 220</td>
+<td></td>
+<td>9</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/sensodyne-rapide-action.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/rapide-action-extra-fresh/, 82</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/en-compl�ment-du-brossage.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 235</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�-propos-des-attaques-acides.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 200</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne.html?/sensodyne-mouthwash.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 55</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/Traiter-les-dents-sensibles/comment-choisir-le-meilleur-dentifrice-pour-mes-dents-sensibles.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 276</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/plan-du-site.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/plan-du-site/, 129</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/content/dam/cf-consumer-healthcare/sensodyne/fr_FR/pdf/market-haleon-terms.pdf, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 155</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/multi-protection-blancheur.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/multi-protection-blancheur-avancee/, 96</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/coldestcity.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 222</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/traitement-sensibilit�.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-reparation-des-dents-sensibles/, 230</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/bains-de-bouche/pro-email.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 259</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/footer/traitement-des-données-personnelles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 264</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/pro-email-blancheur.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensodyne-sensibilite-gencives-email/, 76</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/caries, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 161</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/footer/traitement-des-donn�es-personnelles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 133</td>
+<td></td>
+<td>10</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/dentifrice-sensodyne%20rÃ©pare-protÃ¨ge.aspx/, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 48</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Ãƒ%20-propos-des-attaques-acides.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 166</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Dentifrices/, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 267</td>
+<td></td>
+<td>9</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosses-a-dents/precision1.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/soin-et-precision/, 115</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/soulagement-rapide.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/rapide-action-blancheur/, 30</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/sensodyne-mouthwash.aspx?gclid=CJyI-IzwnNICFeQp0wodyvIMsA, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/gel-fraicheur-intense/, 22</td>
+<td></td>
+<td>9</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/dentifrice-sensodyne répare-protège.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-extra-fresh/, 26</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/faq.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 141</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosses-a-dents/soin-interdentaire.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensibilite-et-gencives/, 110</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÃ‚Â®/dentifrice-sensodyneÃ‚%20rÃƒÂ©pare-protÃƒÂ¨ge.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 229</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne?/sensodyne-mouthwash.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 61</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/sensodyne-mouthwash.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 227</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/dentifrices/rapide-menthe.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/rapide-action-extra-fresh/, 89</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/traitement-sensibilite.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensodyne-sensibilite-gencive/, 78</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�-propos-des-dents-sensibles/d�clencheurs-de-la-sensibilit�.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 191</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/accessibilite.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/acceptable-use-policy/, 194</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/?-propos-des-attaques-acides.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 223</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/vivre-avec-la-sensibilite-dentaire/soins-continus.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 148</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/soin-gencives.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrice-soin-gencives/, 120</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�-propos-des-dents-sensibles/pr�venir-la-sensibilit�-dentaire.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 189</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/foire-aux-questions.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 140</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/soin-controle-plaque1.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 74</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÂ®/brossage-des-dents-sensibles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 18</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/soin-complet.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/soin-complet/, 5</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Conditions-dutilisation.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 272</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/dentifrices/repare-et-protege-fraicheur.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 251</td>
+<td></td>
+<td>8</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/dentifrices/anti-tartre.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 107</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-dents-sensibles/le-signe-d'un-problème-plus-grave .aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 208</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/repare-protege-menthe-fraiche.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 86</td>
+<td></td>
+<td>10</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/dents-gencives-sensibles-extra-fresh.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensibilite-et-gencives-menthe-fraiche/, 101</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/diagnostic-en-ligne/sensodyne-ocu-tool.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 203</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/boutique.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 165</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-attaques-acides/les-attaques-acides-sont-elles-courantes .aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 216</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Ã -propos-des-dents-sensibles/quelles-sont-les-causes-de-la-sensibilitÃ©-dentaireÂ .aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 170</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-dents-sensibles/déclencheurs-de-la-sensibilité.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 209</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/contact.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/contact/, 147</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/footer/conditions-d’utilisation.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 266</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Carie, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 273</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�-propos-des-dents-sensibles/blanchiment-et-sensibilit�-dentaire.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 197</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Accessibilite.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 275</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensodyne-soin-nettoyage.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/soin-complet/, 1</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/demandez-à-l'expert.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 268</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/demandez-?%20-l%27expert.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 270</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/le-produit-sensodyne-qui-vous-convient.aspx?gclid=Cj0KEQiAk5zEBRD9lfno2dek0tsBEiQAWVKyuBZHPKX8MlfBobXw9GpEDK0OijTuPuW5C5OlXLCvVgoaArR58P8HAQ, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 64</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/dentifrices/pro-email-protection-quotidienne.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 253</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÂ®/traitement-sensibilitÃ©.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 10</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-dents-sensibles/comprendre-vos-dents.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 211</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/dentifrices/rapide-original.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-menthe/, 252</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÂ®/protection-sensibilitÃ©-24h.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-protection-des-gencives/, 15</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/boutique1.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 130</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/truewhite22.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 66</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/soin-floure-actif1.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrice-soin-gencives/, 73</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/content/cf-consumer-healthcare/oral-sensodyne/fr_FR/home/produits/dentifrices/soin-blancheur, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-blancheur/, 157</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/protection-sensibilitÃ©-24h.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-protection-des-gencives/, 41</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/sensodyne-mouthwash.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 234</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne?-24h.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 62</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/sensodyne-mouthwash.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 33</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/traitement-sensibilité.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-reparation-des-dents-sensibles/, 19</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/protection-sensibilité-24h.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-protection-des-gencives/, 42</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/protection-complete.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/soin-complet/, 69</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/footer/traitement-des-donn.html?es-personnelles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 265</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/sensodyne-mouthwash.aspx?gclid=CJyI-IzwnNICFeQp0wodyvIMsA, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 32</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/new-landing-page.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 202</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/?.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 219</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosses-a-dents/rapide-action.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/rapide-action/, 94</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/à-propos-des-attaques-acides/quels-sont-les-signes-des-attaques-acides .aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 214</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/dentifrice-sensodyne%20r�pare-prot�ge.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-extra-fresh/, 47</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne?ment-du-brossage.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 243</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyneÂ®/sensodyne-mouthwash.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 14</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-de-sensodyne/novamin.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 182</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/brossage-des-dents-sensibles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 51</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/traitement-sensibilit�.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 36</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne.html?/soulagement-rapide.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/rapide-action-blancheur/, 53</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�-propos-des-dents-sensibles/comprendre-vos-dents.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 193</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne/protection-sensibilit�-24h.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-protection-des-gencives/, 39</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/protection-sensibilité-24h.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-reparation-des-dents-sensibles/, 24</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�%20-propos-des-dents-sensibles/le-signe-d'un-problème-plus-grave%20.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 179</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-de-sensodyne/potassium-nitrate.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 167</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/diagnostic-en-ligne.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 205</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne?/sensodyne-multi-protection.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/multi-protection-menthe/, 60</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-des-dents-sensibles/vivre-avec-la-sensibilite-dentaire/soins-continus, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 183</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/soin-fluor-actif.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrice-soin-gencives/, 72</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/brossage-des-dents-sensibles.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensibilite-et-gencives/, 28</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/sensodyne-sport-addict.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 2</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/extra-fresh.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensibilite-et-gencives-menthe-fraiche/, 98</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/anticaries.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-soulagement-rapide-sensibilite-dentaire/, 106</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/sensodyne-food-lover.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 4</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/brosses-a-dents/precision.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/soin-et-precision/, 116</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne?/sensodyne-multi-protection.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/multi-protection-menthe/, 245</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/�-propos-des-dents-sensibles/comprendre-vos-dents.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 280</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/accessibilite, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/acceptable-use-policy/, 168</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-de-sensodyne/, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 204</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Produits/dentifrices/extra-fresh.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/sensibilite-et-gencives-menthe-fraiche/, 254</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/dents-gencives-sensibles.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices-soulagement-rapide-sensibilite-dentaire/, 111</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/error.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 146</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/le-produit-sensodyne-qui-vous-convient.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 65</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/a-propos-de-sensodyne.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/conseils-dentaires/blanchir-les-dents-sensibles/, 184</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/demandez-.html?%20-l%27expert.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/, 269</td>
+<td></td>
+<td>6</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne®/dentifrice-sensodyne%20répare-protège.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/repare-et-protege-extra-fresh/, 27</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/dentifrices/repaireandprotectextrafresh.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/rapide-action-extra-fresh/, 88</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/produits-sensodyne�/dentifrice-sensodyne�r�pare-prot�ge.aspx, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/produits/, 236</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.SensodyneRedirectionTest.verify_Redirection_URL()'><b>verify_Redirection_URL</b><br>Test class: com.qa.bens.checklist.test.SensodyneRedirectionTest<br>Parameters: https://haleonstaging2:Humanity23@sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/Contact.html, https://sensodyne-v3-fr.preprod-cf65.ch.adobecqms.net/contact/, 271</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.SensodyneRedirectionTest@76b1e9b8</td></tr>
+</table><p>
+</body>
+</html>

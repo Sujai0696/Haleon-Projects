@@ -1,19 +1,11 @@
 package com.qa.bens.checklist.test;
 
-import static org.testng.Assert.assertTrue;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.google.inject.spi.Element;
 import com.qa.baseClass.BaseClass;
 import com.qa.bens.checklist.page.CheckListNbspPage;
 import com.qa.tums.eng.util.DataProviderCode;
-import com.qa.tums.eng.util.LogFile;
 
 public class CheckListNbspTest extends BaseClass{
 	
@@ -27,7 +19,7 @@ public class CheckListNbspTest extends BaseClass{
 
 //dataProvider = "Caltrate",dataProviderClass = DataProviderCode.class
 	@Test(dataProvider = "Caltrate",dataProviderClass = DataProviderCode.class)
-	private void verifyContainerId(String path) throws Exception {
+	private void verifyTM(String path) throws Exception {
 		nbsp.verifyNbsp(path);
 		System.out.println("---->**************************************************<----");
 		

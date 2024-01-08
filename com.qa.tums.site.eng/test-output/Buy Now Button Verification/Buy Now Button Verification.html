@@ -1,0 +1,709 @@
+<html>
+<head>
+<title>TestNG:  Buy Now Button Verification</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Buy Now Button Verification</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>126/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 14 17:41:19 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>2488 seconds (2488691 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/cold-sore-products/abreva-reviews/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/fever-blister-vs-cold-sore/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/what-antiviral-cold-sore-medication-is-right-for-me/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/valentines-day-single-things-to-do.html</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/healthy-snacks-for-on-the-go.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/about-cold-sores/cold-sore-treatments/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/products/cold-sore-rapid-pain-relief/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/how-to-stay-confident-with-cold-sores/</td>
+<td></td>
+<td>26</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/spreading-cold-sores/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/cold-sore-first-signs/</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/creative-ways-spend-summer-break.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/dermatologist-approved-methods-dealing-with-skin-issues.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/what-causes-cold-sores-from-kissing.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sores-and-stress/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/about-cold-sores/kids-cold-sores/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/sitemap/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/healthy-lip-tips/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/about-cold-sores/how-to-take-care-dry-lips-in-winter/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/about-cold-sores/types-of-cold-sore-medicine/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/toothpaste-on-cold-sores/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/how-to-achieve-fresh-face-summer-look.html</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/what-is-herpes-simplex-virus/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/how-to-not-touch-your-face/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/can-you-put-aloe-vera-on-cold-sores/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/can-i-exfoliate-cold-sore.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/how-to-start-meditating-stress-management.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/feel-good-after-cold-sore.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/how-to-treat-a-cold-sore-when-it-first-starts/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/about-cold-sores/what-are-cold-sores/?read_more</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/foods-for-cold-sores/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/trigger-free-summer-vacation-planning/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/stock-up-back-to-school-must-have-supplies.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/?Read_our_Lip_Care_Tips</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/where-can-you-get-a-cold-sore/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/truth-about-cold-sore-remedies/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/how-to-treat-a-cold-sore/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/the-best-concealer-for-different-skin-types.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/signs-of-stress-summertime.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/contact-us/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/healthiest-new-years-resolutions.html</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/</td>
+<td></td>
+<td>11</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/dentist-visit/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/about-cold-sores/what-are-cold-sores/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/about-cold-sores/spreading-cold-sores/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/5-steps-to-treat-painful-cold-sores/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/the-cold-sore-tingle-poll/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/pregnancy-and-periods/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/tips-for-dating-with-cold-sores/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/bumps-on-lips/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/cold-sore-products/how-abreva-cream-works/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/build-self-confidence-before-big-night.html</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/difference-between-cold-sore-canker-sore.html</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/stay-hydrated-summer-drink-recipe.html</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/lip-care-routine/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/stress/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/</td>
+<td></td>
+<td>27</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/how-iced-coffee-affects-cold-sores.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/cold-sore-confessions/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/new-years-eve-outfit.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/how-to-talk-to-teens-about-cold-sore-symptoms.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/cold-sore-on-new-years-eve-heres-how-to-deal.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/where-to-buy/</td>
+<td></td>
+<td>16</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/masks-cold-sores/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/deep-breathing-exercise-stress-management.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/lip-fillers-and-cold-sores/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/how-to-talk-to-doctor-about-cold-sore.html</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/create-winter-break-survival-kit.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/how-long-are-cold-sores-contagious/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/plan-for-important-days/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/5-ways-to-get-rid-of-a-cold-sore/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/exercise/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/cold-and-flu/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/glycerin-for-cold-sores-cracked-lips/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/cold-sore-confidence/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/about-cold-sores/what-triggers-your-cold-sores/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/managing-teenage-stress/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/how-to-survive-thanksgiving-break-with-family.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/how-to-heal-cold-sore-scab/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/ways-to-relieve-holiday-stress.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/abreva-vs-competitors/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/faq/when-to-use-abreva/</td>
+<td></td>
+<td>7</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/hydrate-chapped-lips/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/cold-sore-day-at-the-beach.html</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/coping-with-loss-or-illness/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/lip-care-vs-lip-health/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/products/abreva-cold-sore-cream/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/study-tips-avoid-cold-sore.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/about-cold-sores/cold-sore-facts-and-myths/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/how-common-herpes-simplex-1.html</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/common-lip-problems/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/products/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/relaxation-techniques/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/ways-avoid-cold-sore-outbreak.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/</td>
+<td></td>
+<td>27</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/money-management-tips/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/sleep/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/products/how-to-use-rapid-pain-relief/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/faq/abreva-basics/</td>
+<td></td>
+<td>11</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/infections-you-can-get-from-kissing.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/lysine-and-cold-sores/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/therapist-approved-ways-improve-self-esteem.html</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/how-to-avoid-burnout.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/social-media-adding-too-much-stress-signs.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/faq/how-to-use-abreva/</td>
+<td></td>
+<td>12</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/lip-color-and-health/</td>
+<td></td>
+<td>23</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/about-cold-sores/cold-sore-stages/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/how-to-wake-up-morning-yoga-routine.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/about-cold-sores/cold-sore-vs-pimple/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/why-do-i-keep-getting-cold-sores/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/how-to-cover-up-cold-sores/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/staying-confident/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/cold-weather/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/natural-home-remedies-for-cold-sores.html</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/sun-and-cold-sores/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/do-cold-sores-mean-you-have-std/</td>
+<td></td>
+<td>26</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/why-you-need-lip-spf/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/faq/understanding-cold-sores/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/lip-care/eating-for-lip-health/</td>
+<td></td>
+<td>4</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/about-cold-sores/canker-sore-pain-vs-cold-sore-pain/</td>
+<td></td>
+<td>24</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/faq/abreva-basics/using-my-fsa-or-hsa-to-purchase/</td>
+<td></td>
+<td>5</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/cold-sore-products/how-to-use-abreva-cream/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/cold-sore-triggers/stress-at-work/</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/amp/should-you-pop-a-cold-sore.html</td>
+<td></td>
+<td>25</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.qa.bens.checklist.test.BuyNowCheckTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: com.qa.bens.checklist.test.BuyNowCheckTest<br>Parameters: https://haleonstaging2:Humanity23@abreva-com.preprod-cf65.ch.adobecqms.net/managing-lip-health/dealing-with-cold-sores/nose-cold-sores/</td>
+<td></td>
+<td>3</td>
+<td>com.qa.bens.checklist.test.BuyNowCheckTest@76b1e9b8</td></tr>
+</table><p>
+</body>
+</html>

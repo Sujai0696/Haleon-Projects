@@ -1308,6 +1308,18 @@ public class BaseClass {
 		rb.keyRelease(KeyEvent.VK_F);
 	}
 	
+	public static void tab() throws AWTException {
+		Robot rb = new Robot();
+		rb.keyPress(KeyEvent.VK_TAB);
+		rb.keyRelease(KeyEvent.VK_TAB);
+	}
+	
+	public static void enter() throws AWTException {
+		Robot rb = new Robot();
+		rb.keyPress(KeyEvent.VK_ENTER);
+		rb.keyRelease(KeyEvent.VK_ENTER);
+	}
+	
 	public static void ctrlA() throws AWTException {
 		Robot rb = new Robot();
 		rb.keyPress(KeyEvent.VK_CONTROL);

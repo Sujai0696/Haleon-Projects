@@ -16,6 +16,10 @@ public class  LogFile extends ExtentManager{
 		ExtentManager.test.info(Status);
 	}
 	
+	public void skip (String Status) {
+		ExtentManager.test.skip(Status);
+	}
+	
 	
 	
 	

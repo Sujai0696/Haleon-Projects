@@ -23,7 +23,7 @@ public class CentrumSampleCouponsTest extends BaseClass{
 	@BeforeMethod
 	private void launchingTheUrl() throws Exception {
 		switchingTab(firstTab);
-		launchURL("https://haleonstaging1:Health2023@centrum-wellness-com.preprod-cf65.ch.adobecqms.net/coupons/");
+		launchURL("https://haleonstaging2:Humanity23@centrum-wellness-com.preprod-cf65.ch.adobecqms.net/coupons/");
 		switchingTab(secondTab);
 		launchURL("https://www.centrum.com/coupons/");
 	}

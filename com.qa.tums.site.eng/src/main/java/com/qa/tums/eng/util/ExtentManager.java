@@ -23,7 +23,7 @@ public class ExtentManager {
 		extent.attachReporter(htmlReporter);
 
 		extent.setSystemInfo("HostName", "WKWZTPqvmdckJHX");
-		extent.setSystemInfo("ProjectName", "GO Tag Removal");
+		extent.setSystemInfo("ProjectName", "Caltrate TM Removal");
 		extent.setSystemInfo("Tester", "Sujai Sekar");
 		extent.setSystemInfo("OS", "Win11");
 		extent.setSystemInfo("Browser", "Chrome");

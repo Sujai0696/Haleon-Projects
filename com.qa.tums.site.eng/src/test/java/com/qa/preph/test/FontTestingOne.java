@@ -16,8 +16,10 @@ public class FontTestingOne extends BaseClass{
 	public static void main(String[] args) throws IOException, Exception {
 
 		browserLaunch(loadConfig("preph_Config.properties").getProperty("browser"));
+		
+		//https://www.polident.com/en-us/contact-us/
 
-		launchURL("https://www.polident.com/en-us/contact-us/");
+		launchURL("https://www.fenistil.co.il/");
 
 		String expectedFontFamily = "sans-serif"; 
 		
@@ -32,11 +34,11 @@ public class FontTestingOne extends BaseClass{
 				System.out.println("Font Family: " + fontFamily);
 //				System.out.println();
 
-//				if (fontFamily.equalsIgnoreCase(expectedFontFamily)) {
-//					System.out.println("Font family is as expected.");
-//				} else {
-//					System.out.println("Font family is not as expected.");
-//				}
+				if (fontFamily.equalsIgnoreCase(expectedFontFamily)) {
+					System.out.println("Font family is as expected.");
+				} else {
+					System.out.println("Font family is not as expected.");
+				}
 				System.out.println("******************************************");
 				
 			} 

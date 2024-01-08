@@ -3,19 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.flonase.test.FlonaseChildrensSensimistFaqsTest">
+      <class name="com.qa.centrum.eng.test.CentrumSampleCouponsTest">
         <methods>
-          <include name="verifyAccEight"/>
+          <include name="verifyGigyaFormFive"/>
           <include name="endReport"/>
-          <include name="launchingTheBrowser"/>
-          <include name="verifyAccTen"/>
-          <include name="verifyAccSix"/>
-          <include name="verifyAccSeven"/>
-          <include name="startReport"/>
+          <include name="verifyGigyaFormThree"/>
           <include name="launchingTheUrl"/>
-          <include name="verifyAccNine"/>
+          <include name="startReport"/>
+          <include name="verifyGigyaForm"/>
+          <include name="verifyGigyaFormTwo"/>
+          <include name="verifyGigyaFormFour"/>
+          <include name="verifyGigyaFormSix"/>
+          <include name="launchingTheBrowser"/>
         </methods>
-      </class> <!-- com.qa.flonase.test.FlonaseChildrensSensimistFaqsTest -->
+      </class> <!-- com.qa.centrum.eng.test.CentrumSampleCouponsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

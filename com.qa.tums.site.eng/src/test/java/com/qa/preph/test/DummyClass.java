@@ -13,7 +13,7 @@ public class DummyClass extends BaseClass{
 
 		browserLaunch(loadConfig("preph_Config.properties").getProperty("browser"));
 
-		launchURL("https://www.odol-med3.de/ueber-uns/kontakt");
+		launchURL("https://www.centrum.com/about/");
 
 		List<WebElement> elements = driver.findElements(By.xpath("//body//*[text() and not(*)]"));
 		

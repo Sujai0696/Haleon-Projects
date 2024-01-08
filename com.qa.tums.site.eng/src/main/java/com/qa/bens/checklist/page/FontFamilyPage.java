@@ -30,7 +30,9 @@ public class FontFamilyPage extends BaseClass{
 	@FindBy(xpath = "//*[@id='content']//*[text()]")
 	private static List<WebElement> gettingText;
 
-
+	//*[@id='content']//*[text()]
+	//body//*[text() and not(*)]
+	//*[not(self::script)][not(self::style)][string-length(normalize-space(text())) > 0]
 	String expectedFontFamily = "sans-serif";
 	
 	
